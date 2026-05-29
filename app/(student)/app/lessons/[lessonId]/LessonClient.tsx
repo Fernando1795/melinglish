@@ -1,0 +1,282 @@
+'use client'
+
+import { useState, useCallback } from 'react'
+import Link from 'next/link'
+import { motion, AnimatePresence } from 'framer-motion'
+import { createClient } from '@/lib/supabase/client'
+import {
+  type Exercise,
+  createSession,
+  updateSession,
+  calculateScore,
+  calculateStars,
+  selectNextExercise,
+  checkAnswer,
+} from '@/lib/exercise-engine'
+import { Progress } from '@/components/ui/progress'
+import { Button } from '@/components/ui/button'
+import { Badge } from '@/components/ui/badge'
+import Penguin from '@/components/Penguin'
+import MultipleChoice from '@/components/exercises/MultipleChoice'
+import FillBlank from '@/components/exercises/FillBlank'
+import SentenceOrder from '@/components/exercises/SentenceOrder'
+import ExerciseFeedback from '@/components/exercises/ExerciseFeedback'
+
+type Props = {
+  lesson: { id: string; title: string; sections: { title: string; modules: { title: string; level_id: string } } }
+  exercises: Exercise[]
+  userId: string
+}
+
+type Phase = 'intro' | 'exercise' | 'feedback' | 'result'
+
+export default function LessonClient({ lesson, exercises, userId }: Props) {
+  const [phase, setPhase] = useState<Phase>('intro')
+  const [session, setSession] = useState(createSession())
+  const [answeredIds] = useState(new Set<string>())
+  const [currentExercise, setCurrentExercise] = useState<Exercise | null>(null)
+  const [userAnswer, setUserAnswer] = useState<string | string[] | null>(null)
+  const [isCorrect, setIsCorrect] = useState<boolean | null>(null)
+  const [savedExercises, setSavedExercises] = useState(0)
+
+  const totalExercises = exercises.length
+  const progress = totalExercises > 0 ? (savedExercises / totalExercises) * 100 : 0
+
+  function startLesson() {
+    const first = selectNextExercise(exercises, session, new Set())
+    setCurrentExercise(first)
+    setPhase('exercise')
+  }
+
+  const handleAnswer = useCallback((answer: string | string[]) => {
+    if (!currentExercise) return
+    const correct = checkAnswer(currentExercise, answer)
+    setUserAnswer(answer)
+    setIsCorrect(correct)
+    const newSession = updateSession(session, currentExercise.id, correct)
+    setSession(newSession)
+    setPhase('feedback')
+  }, [currentExercise, session])
+
+  function handleNext() {
+    if (!currentExercise) return
+    answeredIds.add(currentExercise.id)
+    setSavedExercises(answeredIds.size)
+
+    if (answeredIds.size >= totalExercises) {
+      saveProgress()
+      setPhase('result')
+      return
+    }
+
+    const next = selectNextExercise(exercises, session, answeredIds)
+    setCurrentExercise(next)
+    setUserAnswer(null)
+    setIsCorrect(null)
+    setPhase('exercise')
+  }
+
+  async function saveProgress() {
+    const score = calculateScore(session)
+    const supabase = createClient()
+    await supabase.from('user_progress').upsert({
+      user_id: userId,
+      lesson_id: lesson.id,
+      completed: true,
+      score,
+      completed_at: new Date().toISOString(),
+    }, { onConflict: 'user_id,lesson_id' })
+  }
+
+  const score = calculateScore(session)
+  const stars = calculateStars(score)
+  const levelId = lesson.sections?.modules?.level_id ?? 'A1'
+
+  if (phase === 'intro') {
+    return (
+      <div className="flex flex-col items-center justify-center min-h-[60vh] text-center space-y-6">
+        <motion.div
+          initial={{ scale: 0.5, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+        >
+          <Penguin mood="wave" size={160} />
+        </motion.div>
+        <div>
+          <Badge className="bg-blue-100 text-blue-700 font-bold mb-3">
+            {lesson.sections?.modules?.title ?? 'Módulo'}
+          </Badge>
+          <h1 className="text-3xl font-black text-gray-900 mb-2">{lesson.title}</h1>
+          <p className="text-gray-500 font-medium">
+            {totalExercises} ejercicios · Dificultad adaptativa
+          </p>
+        </div>
+        <div className="flex gap-4 flex-wrap justify-center text-sm font-bold text-gray-500">
+          <span>✏️ Completar oraciones</span>
+          <span>🔤 Ordenar palabras</span>
+          <span>✅ Opción múltiple</span>
+        </div>
+        <Button
+          onClick={startLesson}
+          className="font-black text-xl py-7 px-12 rounded-3xl bg-blue-600 hover:bg-blue-700 shadow-xl hover:shadow-2xl transition-all hover:scale-105"
+        >
+          ¡Empezar! 🚀
+        </Button>
+      </div>
+    )
+  }
+
+  if (phase === 'result') {
+    return (
+      <motion.div
+        initial={{ opacity: 0, scale: 0.9 }}
+        animate={{ opacity: 1, scale: 1 }}
+        className="flex flex-col items-center justify-center min-h-[60vh] text-center space-y-6"
+      >
+        <motion.div
+          initial={{ scale: 0 }}
+          animate={{ scale: 1 }}
+          transition={{ type: 'spring', stiffness: 300 }}
+        >
+          <Penguin mood={stars >= 2 ? 'celebrate' : 'happy'} size={150} />
+        </motion.div>
+
+        <div>
+          <h1 className="text-4xl font-black text-gray-900 mb-2">
+            {stars >= 2 ? '¡Increíble!' : '¡Bien hecho!'}
+          </h1>
+          <p className="text-gray-500 font-semibold">Lección completada</p>
+        </div>
+
+        <div className="flex gap-2 text-4xl">
+          {[1, 2, 3].map(s => (
+            <motion.span
+              key={s}
+              initial={{ scale: 0, rotate: -180 }}
+              animate={{ scale: 1, rotate: 0 }}
+              transition={{ delay: s * 0.2, type: 'spring' }}
+            >
+              {s <= stars ? '⭐' : '☆'}
+            </motion.span>
+          ))}
+        </div>
+
+        <div className="bg-white rounded-3xl border-2 border-blue-100 p-6 w-full max-w-sm">
+          <div className="text-5xl font-black text-blue-600 mb-1">{score}%</div>
+          <p className="text-gray-500 font-semibold">
+            {session.correctCount} de {session.totalAnswered} correctas
+          </p>
+        </div>
+
+        <div className="flex gap-3 flex-wrap justify-center">
+          <Link href={`/app/levels/${levelId}`}>
+            <Button variant="outline" className="font-bold rounded-2xl border-2 px-6 py-5">
+              ← Volver al nivel
+            </Button>
+          </Link>
+          <Button
+            onClick={() => {
+              setPhase('intro')
+              setSession(createSession())
+              answeredIds.clear()
+              setSavedExercises(0)
+              setCurrentExercise(null)
+            }}
+            className="font-black rounded-2xl bg-blue-600 hover:bg-blue-700 px-6 py-5"
+          >
+            Repetir lección 🔄
+          </Button>
+        </div>
+      </motion.div>
+    )
+  }
+
+  const content = currentExercise?.content
+  const explanation = (content as { explanation?: string })?.explanation
+
+  return (
+    <div className="space-y-6">
+      {/* Header de progreso */}
+      <div className="flex items-center gap-4">
+        <Link href={`/app/levels/${levelId}`} className="text-gray-400 hover:text-gray-600 font-bold">
+          ✕
+        </Link>
+        <Progress value={progress} className="flex-1 h-3 rounded-full" />
+        <span className="text-sm font-black text-gray-500 whitespace-nowrap">
+          {savedExercises}/{totalExercises}
+        </span>
+      </div>
+
+      {/* Tarjeta del ejercicio */}
+      <div className="bg-white rounded-3xl border-2 border-blue-100 p-8 min-h-64">
+        <div className="flex items-center gap-2 mb-8">
+          <Badge className={`font-bold ${
+            session.currentDifficulty === 1 ? 'bg-green-100 text-green-700'
+            : session.currentDifficulty === 2 ? 'bg-yellow-100 text-yellow-700'
+            : 'bg-red-100 text-red-700'
+          }`}>
+            {session.currentDifficulty === 1 ? '⭐ Fácil' : session.currentDifficulty === 2 ? '⭐⭐ Medio' : '⭐⭐⭐ Difícil'}
+          </Badge>
+          <Badge variant="outline" className="font-semibold text-gray-500">
+            {currentExercise?.type === 'fill_blank' ? '✏️ Completar' : currentExercise?.type === 'sentence_order' ? '🔤 Ordenar' : '✅ Elegir'}
+          </Badge>
+        </div>
+
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={currentExercise?.id}
+            initial={{ opacity: 0, x: 20 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: -20 }}
+            transition={{ duration: 0.2 }}
+          >
+            {currentExercise?.type === 'multiple_choice' && (
+              <MultipleChoice
+                content={currentExercise.content as Parameters<typeof MultipleChoice>[0]['content']}
+                onAnswer={handleAnswer}
+                disabled={phase === 'feedback'}
+                selected={typeof userAnswer === 'string' ? userAnswer : null}
+                isCorrect={isCorrect}
+              />
+            )}
+            {currentExercise?.type === 'fill_blank' && (
+              <FillBlank
+                content={currentExercise.content as Parameters<typeof FillBlank>[0]['content']}
+                onAnswer={handleAnswer}
+                disabled={phase === 'feedback'}
+                isCorrect={isCorrect}
+              />
+            )}
+            {currentExercise?.type === 'sentence_order' && (
+              <SentenceOrder
+                content={currentExercise.content as Parameters<typeof SentenceOrder>[0]['content']}
+                onAnswer={handleAnswer}
+                disabled={phase === 'feedback'}
+                isCorrect={isCorrect}
+              />
+            )}
+          </motion.div>
+        </AnimatePresence>
+
+        {phase === 'feedback' && isCorrect !== null && (
+          <ExerciseFeedback
+            isCorrect={isCorrect}
+            explanation={explanation}
+            onNext={handleNext}
+            isLast={answeredIds.size + 1 >= totalExercises}
+          />
+        )}
+      </div>
+
+      {/* Racha */}
+      {session.streak > 0 && phase === 'exercise' && (
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          className="text-center text-orange-500 font-black text-lg"
+        >
+          🔥 Racha: {session.streak} correctas seguidas!
+        </motion.div>
+      )}
+    </div>
+  )
+}
