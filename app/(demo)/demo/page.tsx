@@ -3,11 +3,22 @@ import { DEMO_LEVELS } from '@/lib/demo-data'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import Penguin from '@/components/Penguin'
-import { BookOpen, Zap, ChevronRight } from 'lucide-react'
+import { BookOpen, Zap, ChevronRight, ArrowLeft } from 'lucide-react'
 
 export default function DemoPage() {
   return (
     <div className="space-y-8">
+
+      {/* Botón Volver al inicio */}
+      <div className="flex justify-start">
+        <Link href="/">
+          <Button variant="outline" className="font-bold rounded-2xl border-2 gap-2">
+            <ArrowLeft className="w-4 h-4" />
+            Volver al inicio
+          </Button>
+        </Link>
+      </div>
+
       {/* Bienvenida demo */}
       <div className="bg-gradient-to-r from-blue-500 to-blue-700 rounded-3xl p-8 text-white text-center">
         <Penguin mood="wave" size={120} className="mx-auto mb-4" />
@@ -58,25 +69,21 @@ export default function DemoPage() {
         </div>
       </div>
 
-      {/* CTA crear cuenta */}
+      {/* CTA — solo "Ver planes" centrado */}
       <div className="bg-gradient-to-r from-orange-400 to-orange-600 rounded-3xl p-8 text-white text-center">
         <h3 className="text-2xl font-black mb-2">¿Te gustó? 🎉</h3>
         <p className="text-orange-100 font-medium mb-6">
-          Crea tu cuenta para guardar tu progreso, ganar estrellas y desbloquear todo el contenido
+          Crea tu cuenta y accede a los 8 módulos completos del nivel A1
         </p>
-        <div className="flex gap-3 justify-center flex-wrap">
-          <Link href="/register">
-            <Button className="font-black bg-white text-orange-600 hover:bg-orange-50 rounded-2xl px-8 py-5 text-lg">
-              Crear cuenta gratis
-            </Button>
-          </Link>
+        <div className="flex justify-center">
           <Link href="/pricing">
-            <Button variant="outline" className="font-black border-2 border-white text-white hover:bg-white/20 rounded-2xl px-8 py-5 text-lg">
+            <Button className="font-black bg-white text-orange-600 hover:bg-orange-50 rounded-2xl px-10 py-5 text-lg shadow-lg">
               Ver planes
             </Button>
           </Link>
         </div>
       </div>
+
     </div>
   )
 }
