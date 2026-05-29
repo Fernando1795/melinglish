@@ -1,7 +1,7 @@
 import { redirect } from 'next/navigation'
 import Link from 'next/link'
 import { createClient } from '@/lib/supabase/server'
-import { getAccessibleHours, isSubscriptionActive, canAccessLevel } from '@/lib/content-access'
+import { isSubscriptionActive, canAccessLevel, getEffectiveSubscription } from '@/lib/content-access'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { BookOpen, Lock, Zap } from 'lucide-react'
@@ -14,12 +14,14 @@ export default async function DashboardPage() {
   if (!user) redirect('/login')
 
   const [{ data: profile }, { data: subscription }, { data: levels }] = await Promise.all([
-    supabase.from('profiles').select('full_name, current_level, weekly_days_accumulated').eq('id', user.id).single(),
+    supabase.from('profiles').select('full_name, current_level, weekly_days_accumulated, role').eq('id', user.id).single(),
     supabase.from('subscriptions').select('*').eq('user_id', user.id).eq('status', 'active').single(),
     supabase.from('levels').select('id, title, description, total_hours, order_index').order('order_index'),
   ])
 
-  const hasSubscription = isSubscriptionActive(subscription)
+  const isAdmin = profile?.role === 'admin'
+  const effectiveSub = getEffectiveSubscription(subscription, isAdmin)
+  const hasSubscription = isAdmin || isSubscriptionActive(subscription)
   const weeklyDays = profile?.weekly_days_accumulated ?? 0
   const currentLevel = profile?.current_level ?? 'A1'
   const firstName = (profile?.full_name ?? user.email ?? '').split(' ')[0]
@@ -84,7 +86,7 @@ export default async function DashboardPage() {
           {(levels ?? []).map(level => {
             const isUnlocked = canAccessLevel(
               level.id,
-              subscription,
+              effectiveSub,
               currentLevel,
               weeklyDays
             )

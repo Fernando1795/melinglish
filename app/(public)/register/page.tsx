@@ -35,7 +35,7 @@ export default function RegisterPage() {
     })
 
     if (error) {
-      setError('No se pudo crear la cuenta. Intenta con otro email.')
+      setError(error.message || 'No se pudo crear la cuenta. Intenta con otro email.')
       setLoading(false)
       return
     }

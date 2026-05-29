@@ -66,15 +66,15 @@ export async function proxy(request: NextRequest) {
     return NextResponse.redirect(new URL('/app/dashboard', request.url))
   }
 
-  // Si el usuario no completó el onboarding → redirigir (excepto si ya está ahí)
+  // Si el usuario no completó el onboarding → redirigir (excepto si ya está ahí o es admin)
   if (user && isStudentRoute && pathname !== '/app/onboarding') {
     const { data: profile } = await supabase
       .from('profiles')
-      .select('onboarding_completed')
+      .select('onboarding_completed, role')
       .eq('id', user.id)
       .single()
 
-    if (profile && !profile.onboarding_completed) {
+    if (profile && !profile.onboarding_completed && profile.role !== 'admin') {
       return NextResponse.redirect(new URL('/app/onboarding', request.url))
     }
   }

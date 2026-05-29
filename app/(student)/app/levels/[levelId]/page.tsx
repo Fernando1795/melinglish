@@ -1,7 +1,7 @@
 import { redirect, notFound } from 'next/navigation'
 import Link from 'next/link'
 import { createClient } from '@/lib/supabase/server'
-import { getAccessibleHoursForLevel, isSubscriptionActive } from '@/lib/content-access'
+import { getAccessibleHoursForLevel, getEffectiveSubscription } from '@/lib/content-access'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { Lock, ChevronRight, BookOpen } from 'lucide-react'
@@ -22,19 +22,20 @@ export default async function LevelPage({ params }: Props) {
       .eq('level_id', levelId.toUpperCase())
       .order('order_index'),
     supabase.from('subscriptions').select('*').eq('user_id', user.id).eq('status', 'active').single(),
-    supabase.from('profiles').select('current_level, weekly_days_accumulated').eq('id', user.id).single(),
+    supabase.from('profiles').select('current_level, weekly_days_accumulated, role').eq('id', user.id).single(),
   ])
 
   if (!level) notFound()
 
-  const hasSubscription = isSubscriptionActive(subscription)
+  const isAdmin = profile?.role === 'admin'
+  const effectiveSub = getEffectiveSubscription(subscription, isAdmin)
   const currentLevel = profile?.current_level ?? 'A1'
   const weeklyDays = profile?.weekly_days_accumulated ?? 0
 
   // Horas accesibles para ESTE nivel específico (cascada entre niveles para semanal)
   const accessibleHours = getAccessibleHoursForLevel(
     levelId.toUpperCase(),
-    subscription,
+    effectiveSub,
     currentLevel,
     weeklyDays
   )
@@ -87,7 +88,7 @@ export default async function LevelPage({ params }: Props) {
                   .filter((l: { is_published: boolean }) => l.is_published)
                   .sort((a: { order_index: number }, b: { order_index: number }) => a.order_index - b.order_index)
                   .map((lesson: { id: string; title: string; duration_minutes: number; cumulative_hours: number }) => {
-                    const isAccessible = hasSubscription && (
+                    const isAccessible = isAdmin || (
                       accessibleHours >= 999 || lesson.cumulative_hours <= accessibleHours
                     )
                     const isCompleted = completedIds.has(lesson.id)

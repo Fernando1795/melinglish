@@ -6,6 +6,25 @@ export type Subscription = {
   current_period_end: string
 }
 
+/** Suscripción sintética que desbloquea TODO — usada para cuentas admin */
+export const ADMIN_SUBSCRIPTION: Subscription = {
+  plan: 'annual',
+  status: 'active',
+  current_period_end: '2099-12-31T23:59:59Z',
+}
+
+/**
+ * Devuelve la suscripción real del usuario, o la suscripción de admin
+ * si el usuario tiene role = 'admin'. Usar en lugar de `subscription`
+ * en todas las páginas del área de estudiante.
+ */
+export function getEffectiveSubscription(
+  subscription: Subscription | null,
+  isAdmin: boolean
+): Subscription | null {
+  return isAdmin ? ADMIN_SUBSCRIPTION : subscription
+}
+
 // Orden y horas totales de cada nivel (agregar A2, A3... aquí cuando existan)
 const LEVEL_ORDER = ['A1', 'A2'] as const
 const LEVEL_HOURS: Record<string, number> = {
