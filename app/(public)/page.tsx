@@ -18,11 +18,6 @@ export default function LandingPage() {
           <Link href="/login">
             <Button variant="ghost" className="font-bold">Iniciar sesión</Button>
           </Link>
-          <Link href="/register">
-            <Button className="font-bold bg-blue-600 hover:bg-blue-700">
-              Empezar gratis
-            </Button>
-          </Link>
         </div>
       </nav>
 
