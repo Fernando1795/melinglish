@@ -1,7 +1,7 @@
 import { redirect, notFound } from 'next/navigation'
 import Link from 'next/link'
 import { createClient } from '@/lib/supabase/server'
-import { getAccessibleHours, isSubscriptionActive } from '@/lib/content-access'
+import { getAccessibleHoursForLevel, isSubscriptionActive } from '@/lib/content-access'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { Lock, ChevronRight, BookOpen } from 'lucide-react'
@@ -14,7 +14,7 @@ export default async function LevelPage({ params }: Props) {
   const { data: { user } } = await supabase.auth.getUser()
   if (!user) redirect('/login')
 
-  const [{ data: level }, { data: modules }, { data: subscription }] = await Promise.all([
+  const [{ data: level }, { data: modules }, { data: subscription }, { data: profile }] = await Promise.all([
     supabase.from('levels').select('*').eq('id', levelId.toUpperCase()).single(),
     supabase
       .from('modules')
@@ -22,12 +22,22 @@ export default async function LevelPage({ params }: Props) {
       .eq('level_id', levelId.toUpperCase())
       .order('order_index'),
     supabase.from('subscriptions').select('*').eq('user_id', user.id).eq('status', 'active').single(),
+    supabase.from('profiles').select('current_level, weekly_days_accumulated').eq('id', user.id).single(),
   ])
 
   if (!level) notFound()
 
-  const accessibleHours = getAccessibleHours(subscription)
   const hasSubscription = isSubscriptionActive(subscription)
+  const currentLevel = profile?.current_level ?? 'A1'
+  const weeklyDays = profile?.weekly_days_accumulated ?? 0
+
+  // Horas accesibles para ESTE nivel específico (cascada entre niveles para semanal)
+  const accessibleHours = getAccessibleHoursForLevel(
+    levelId.toUpperCase(),
+    subscription,
+    currentLevel,
+    weeklyDays
+  )
 
   // Progreso del usuario en este nivel
   const { data: progress } = await supabase

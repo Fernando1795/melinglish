@@ -13,13 +13,14 @@ export default async function DashboardPage() {
   if (!user) redirect('/login')
 
   const [{ data: profile }, { data: subscription }, { data: levels }] = await Promise.all([
-    supabase.from('profiles').select('full_name, current_level').eq('id', user.id).single(),
+    supabase.from('profiles').select('full_name, current_level, weekly_days_accumulated').eq('id', user.id).single(),
     supabase.from('subscriptions').select('*').eq('user_id', user.id).eq('status', 'active').single(),
     supabase.from('levels').select('id, title, description, total_hours, order_index').order('order_index'),
   ])
 
-  const accessibleHours = getAccessibleHours(subscription)
   const hasSubscription = isSubscriptionActive(subscription)
+  const weeklyDays = profile?.weekly_days_accumulated ?? 0
+  const currentLevel = profile?.current_level ?? 'A1'
   const firstName = (profile?.full_name ?? user.email ?? '').split(' ')[0]
 
   // Progreso del usuario
@@ -60,7 +61,7 @@ export default async function DashboardPage() {
             <div className="flex justify-between items-center mb-2">
               <span className="font-bold text-white">Plan {subscription?.plan}</span>
               <span className="text-blue-100 text-sm font-semibold">
-                {accessibleHours >= 999 ? 'Todo desbloqueado' : `${accessibleHours}h desbloqueadas`}
+                {subscription?.plan === 'annual' ? 'Todo desbloqueado' : subscription?.plan === 'weekly' ? `${weeklyDays * 2}h acumuladas` : `Nivel ${currentLevel} completo`}
               </span>
             </div>
           </div>
@@ -93,7 +94,8 @@ export default async function DashboardPage() {
             const isUnlocked = canAccessLevel(
               level.id,
               subscription,
-              profile?.current_level ?? 'A1'
+              currentLevel,
+              weeklyDays
             )
 
             return (

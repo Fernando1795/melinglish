@@ -64,6 +64,7 @@ export async function POST(req: NextRequest) {
       const subId = invoice.subscription as string
       const sub = await retrieveSub(subId)
 
+      // Actualizar estado y fecha de la suscripción
       await supabase
         .from('subscriptions')
         .update({
@@ -71,6 +72,29 @@ export async function POST(req: NextRequest) {
           current_period_end: new Date(sub.current_period_end * 1000).toISOString(),
         })
         .eq('stripe_subscription_id', subId)
+
+      // Si es plan semanal → sumar +7 días acumulados al perfil del usuario
+      // Esto habilita el desbloqueo progresivo de contenido entre niveles
+      const { data: subscription } = await supabase
+        .from('subscriptions')
+        .select('user_id, plan')
+        .eq('stripe_subscription_id', subId)
+        .single()
+
+      if (subscription?.plan === 'weekly') {
+        const { data: profile } = await supabase
+          .from('profiles')
+          .select('weekly_days_accumulated')
+          .eq('id', subscription.user_id)
+          .single()
+
+        await supabase
+          .from('profiles')
+          .update({
+            weekly_days_accumulated: (profile?.weekly_days_accumulated ?? 0) + 7,
+          })
+          .eq('id', subscription.user_id)
+      }
       break
     }
 
