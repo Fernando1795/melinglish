@@ -80,6 +80,8 @@ async function seed() {
               cumulative_hours: cumulativeHours,
               order_index:      lesIdx + 1,
               is_published:     true,
+              intro_video_url:  les.intro_video_url ?? null,
+              key_concepts:     les.key_concepts ?? [],
             })
             .select('id')
             .single()

@@ -16,7 +16,7 @@ export default async function LessonPage({ params }: Props) {
       .from('lessons')
       .select('*, sections(title, modules(title, level_id))')
       .eq('id', lessonId)
-      .single(),
+      .single() as Promise<{ data: { id: string; title: string; intro_video_url: string | null; key_concepts: string[] | null; cumulative_hours: number; sections: { title: string; modules: { title: string; level_id: string } } } | null; error: unknown }>,
     supabase.from('subscriptions').select('*').eq('user_id', user.id).eq('status', 'active').single(),
     supabase.from('profiles').select('role, current_level, weekly_days_accumulated').eq('id', user.id).single(),
   ])
@@ -46,6 +46,8 @@ export default async function LessonPage({ params }: Props) {
       lesson={lesson}
       exercises={exercises ?? []}
       userId={user.id}
+      introVideoUrl={lesson.intro_video_url ?? undefined}
+      keyConcepts={lesson.key_concepts ?? []}
     />
   )
 }

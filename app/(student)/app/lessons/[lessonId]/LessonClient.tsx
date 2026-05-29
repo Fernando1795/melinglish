@@ -17,46 +17,59 @@ import { Progress } from '@/components/ui/progress'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import Penguin from '@/components/Penguin'
+import VideoPlayer from '@/components/exercises/VideoPlayer'
 import MultipleChoice from '@/components/exercises/MultipleChoice'
 import FillBlank from '@/components/exercises/FillBlank'
 import SentenceOrder from '@/components/exercises/SentenceOrder'
 import ExerciseFeedback from '@/components/exercises/ExerciseFeedback'
 
 type Props = {
-  lesson: { id: string; title: string; sections: { title: string; modules: { title: string; level_id: string } } }
+  lesson: {
+    id: string
+    title: string
+    sections: { title: string; modules: { title: string; level_id: string } }
+  }
   exercises: Exercise[]
   userId: string
+  introVideoUrl?: string
+  keyConcepts?: string[]
 }
 
-type Phase = 'intro' | 'exercise' | 'feedback' | 'result'
+type Phase = 'intro' | 'video' | 'exercise' | 'feedback' | 'result'
 
-export default function LessonClient({ lesson, exercises, userId }: Props) {
-  const [phase, setPhase] = useState<Phase>('intro')
-  const [session, setSession] = useState(createSession())
-  const [answeredIds] = useState(new Set<string>())
+export default function LessonClient({ lesson, exercises, userId, introVideoUrl, keyConcepts }: Props) {
+  const [phase, setPhase]       = useState<Phase>('intro')
+  const [session, setSession]   = useState(createSession())
+  const [answeredIds]           = useState(new Set<string>())
   const [currentExercise, setCurrentExercise] = useState<Exercise | null>(null)
-  const [userAnswer, setUserAnswer] = useState<string | string[] | null>(null)
-  const [isCorrect, setIsCorrect] = useState<boolean | null>(null)
-  const [savedExercises, setSavedExercises] = useState(0)
+  const [userAnswer, setUserAnswer]           = useState<string | string[] | null>(null)
+  const [isCorrect, setIsCorrect]             = useState<boolean | null>(null)
+  const [savedExercises, setSavedExercises]   = useState(0)
 
   const totalExercises = exercises.length
-  const progress = totalExercises > 0 ? (savedExercises / totalExercises) * 100 : 0
+  const progress       = totalExercises > 0 ? (savedExercises / totalExercises) * 100 : 0
+  const levelId        = lesson.sections?.modules?.level_id ?? 'A1'
+  const moduleTitle    = lesson.sections?.modules?.title ?? 'Melinglish'
 
   function startLesson() {
-    const first = selectNextExercise(exercises, session, new Set())
+    // Siempre pasa por la fase de video/conceptos antes de los ejercicios
+    setPhase('video')
+  }
+
+  function startExercises() {
+    const first = selectNextExercise(exercises, createSession(), new Set())
     setCurrentExercise(first)
     setPhase('exercise')
   }
 
   const handleAnswer = useCallback((answer: string | string[]) => {
     if (!currentExercise) return
-    const correct = checkAnswer(currentExercise, answer)
+    const correct    = checkAnswer(currentExercise, answer)
     setUserAnswer(answer)
     setIsCorrect(correct)
-    const newSession = updateSession(session, currentExercise.id, correct)
-    setSession(newSession)
+    setSession(prev => updateSession(prev, currentExercise.id, correct))
     setPhase('feedback')
-  }, [currentExercise, session])
+  }, [currentExercise])
 
   function handleNext() {
     if (!currentExercise) return
@@ -77,43 +90,47 @@ export default function LessonClient({ lesson, exercises, userId }: Props) {
   }
 
   async function saveProgress() {
-    const score = calculateScore(session)
+    const score    = calculateScore(session)
     const supabase = createClient()
     await supabase.from('user_progress').upsert({
-      user_id: userId,
-      lesson_id: lesson.id,
-      completed: true,
+      user_id:      userId,
+      lesson_id:    lesson.id,
+      completed:    true,
       score,
       completed_at: new Date().toISOString(),
     }, { onConflict: 'user_id,lesson_id' })
   }
 
+  function resetLesson() {
+    setPhase('video')
+    setSession(createSession())
+    answeredIds.clear()
+    setSavedExercises(0)
+    setCurrentExercise(null)
+    setUserAnswer(null)
+    setIsCorrect(null)
+  }
+
   const score = calculateScore(session)
   const stars = calculateStars(score)
-  const levelId = lesson.sections?.modules?.level_id ?? 'A1'
+  const explanation = (currentExercise?.content as { explanation?: string })?.explanation
 
+  // ── INTRO ──────────────────────────────────────────────────────────────────
   if (phase === 'intro') {
     return (
       <div className="flex flex-col items-center justify-center min-h-[60vh] text-center space-y-6">
-        <motion.div
-          initial={{ scale: 0.5, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
-        >
+        <motion.div initial={{ scale: 0.5, opacity: 0 }} animate={{ scale: 1, opacity: 1 }}>
           <Penguin mood="wave" size={160} />
         </motion.div>
         <div>
-          <Badge className="bg-blue-100 text-blue-700 font-bold mb-3">
-            {lesson.sections?.modules?.title ?? 'Módulo'}
-          </Badge>
+          <Badge className="bg-blue-100 text-blue-700 font-bold mb-3">{moduleTitle}</Badge>
           <h1 className="text-3xl font-black text-gray-900 mb-2">{lesson.title}</h1>
-          <p className="text-gray-500 font-medium">
-            {totalExercises} ejercicios · Dificultad adaptativa
-          </p>
+          <p className="text-gray-500 font-medium">{totalExercises} ejercicios · Dificultad adaptativa ⚡</p>
         </div>
-        <div className="flex gap-4 flex-wrap justify-center text-sm font-bold text-gray-500">
-          <span>✏️ Completar oraciones</span>
-          <span>🔤 Ordenar palabras</span>
-          <span>✅ Opción múltiple</span>
+        <div className="flex gap-4 flex-wrap justify-center text-sm font-bold text-gray-400">
+          <span>✏️ Completar</span>
+          <span>🔤 Ordenar</span>
+          <span>✅ Elegir</span>
         </div>
         <Button
           onClick={startLesson}
@@ -121,10 +138,27 @@ export default function LessonClient({ lesson, exercises, userId }: Props) {
         >
           ¡Empezar! 🚀
         </Button>
+        <Link href={`/app/levels/${levelId}`} className="text-gray-400 hover:text-blue-600 font-semibold text-sm">
+          ← Volver a lecciones
+        </Link>
       </div>
     )
   }
 
+  // ── VIDEO / CONCEPTOS CLAVE ────────────────────────────────────────────────
+  if (phase === 'video') {
+    return (
+      <VideoPlayer
+        lessonTitle={lesson.title}
+        moduleTitle={moduleTitle}
+        videoUrl={introVideoUrl}
+        keyConcepts={keyConcepts}
+        onContinue={startExercises}
+      />
+    )
+  }
+
+  // ── RESULTADO ──────────────────────────────────────────────────────────────
   if (phase === 'result') {
     return (
       <motion.div
@@ -141,10 +175,10 @@ export default function LessonClient({ lesson, exercises, userId }: Props) {
         </motion.div>
 
         <div>
-          <h1 className="text-4xl font-black text-gray-900 mb-2">
-            {stars >= 2 ? '¡Increíble!' : '¡Bien hecho!'}
+          <h1 className="text-4xl font-black text-gray-900 mb-1">
+            {stars === 3 ? '¡Perfecto!' : stars === 2 ? '¡Muy bien!' : '¡Bien hecho!'}
           </h1>
-          <p className="text-gray-500 font-semibold">Lección completada</p>
+          <p className="text-gray-500 font-semibold">Lección completada · Progreso guardado ✅</p>
         </div>
 
         <div className="flex gap-2 text-4xl">
@@ -170,36 +204,26 @@ export default function LessonClient({ lesson, exercises, userId }: Props) {
         <div className="flex gap-3 flex-wrap justify-center">
           <Link href={`/app/levels/${levelId}`}>
             <Button variant="outline" className="font-bold rounded-2xl border-2 px-6 py-5">
-              ← Volver al nivel
+              ← Más lecciones
             </Button>
           </Link>
           <Button
-            onClick={() => {
-              setPhase('intro')
-              setSession(createSession())
-              answeredIds.clear()
-              setSavedExercises(0)
-              setCurrentExercise(null)
-            }}
+            onClick={resetLesson}
             className="font-black rounded-2xl bg-blue-600 hover:bg-blue-700 px-6 py-5"
           >
-            Repetir lección 🔄
+            Repetir 🔄
           </Button>
         </div>
       </motion.div>
     )
   }
 
-  const content = currentExercise?.content
-  const explanation = (content as { explanation?: string })?.explanation
-
+  // ── EJERCICIO + FEEDBACK ───────────────────────────────────────────────────
   return (
     <div className="space-y-6">
-      {/* Header de progreso */}
+      {/* Barra de progreso */}
       <div className="flex items-center gap-4">
-        <Link href={`/app/levels/${levelId}`} className="text-gray-400 hover:text-gray-600 font-bold">
-          ✕
-        </Link>
+        <Link href={`/app/levels/${levelId}`} className="text-gray-400 hover:text-gray-600 font-black text-lg">✕</Link>
         <Progress value={progress} className="flex-1 h-3 rounded-full" />
         <span className="text-sm font-black text-gray-500 whitespace-nowrap">
           {savedExercises}/{totalExercises}
@@ -214,10 +238,14 @@ export default function LessonClient({ lesson, exercises, userId }: Props) {
             : session.currentDifficulty === 2 ? 'bg-yellow-100 text-yellow-700'
             : 'bg-red-100 text-red-700'
           }`}>
-            {session.currentDifficulty === 1 ? '⭐ Fácil' : session.currentDifficulty === 2 ? '⭐⭐ Medio' : '⭐⭐⭐ Difícil'}
+            {session.currentDifficulty === 1 ? '⭐ Fácil'
+              : session.currentDifficulty === 2 ? '⭐⭐ Medio'
+              : '⭐⭐⭐ Difícil'}
           </Badge>
           <Badge variant="outline" className="font-semibold text-gray-500">
-            {currentExercise?.type === 'fill_blank' ? '✏️ Completar' : currentExercise?.type === 'sentence_order' ? '🔤 Ordenar' : '✅ Elegir'}
+            {currentExercise?.type === 'fill_blank' ? '✏️ Completar'
+              : currentExercise?.type === 'sentence_order' ? '🔤 Ordenar'
+              : '✅ Elegir'}
           </Badge>
         </div>
 
@@ -262,19 +290,19 @@ export default function LessonClient({ lesson, exercises, userId }: Props) {
             isCorrect={isCorrect}
             explanation={explanation}
             onNext={handleNext}
-            isLast={answeredIds.size + 1 >= totalExercises}
+            isLast={savedExercises + 1 >= totalExercises}
           />
         )}
       </div>
 
       {/* Racha */}
-      {session.streak > 0 && phase === 'exercise' && (
+      {session.streak > 1 && phase === 'exercise' && (
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           className="text-center text-orange-500 font-black text-lg"
         >
-          🔥 Racha: {session.streak} correctas seguidas!
+          🔥 ¡Racha de {session.streak}! ¡Sigue así!
         </motion.div>
       )}
     </div>
