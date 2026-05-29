@@ -1,8 +1,13 @@
 # 🎬 Scripts ElevenLabs — Melinglish A1
-**Avatar:** Ping el Pingüino  
-**Idioma:** Español (enseña inglés)  
-**Duración objetivo:** 60–90 segundos por video  
-**Voz sugerida:** Cálida, clara, energética — velocidad 0.90  
+**Avatar:** Ping el Pingüino
+**Idioma:** Español (enseña inglés con fonética)
+**Duración objetivo:** 60–90 segundos por video
+**Voz sugerida:** Española, cálida y energética — velocidad 0.90
+**Modelo:** Eleven Multilingual v2
+
+> 📌 NOTA TÉCNICA: Las palabras en inglés están escritas FONÉTICAMENTE en español
+> para que la voz las pronuncie correctamente.
+> Ejemplo: "hello" se escribe "Jelou" para que suene como inglés real.
 
 ---
 
@@ -13,95 +18,134 @@
 ### VIDEO 1 — El Alfabeto A–Z y su pronunciación
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... el alfabeto inglés.
+Hoy vamos a aprender el alfabeto inglés completo.
 
-El alfabeto inglés tiene 26 letras, igual que el español, pero se pronuncian diferente.
-Por eso es importante aprenderlo desde el principio. ¡Vamos!
+El inglés tiene 26 letras, pero se pronuncian muy diferente al español.
+Escucha y repite cada una conmigo:
 
-Escucha y repite conmigo:
+A... "ei"
+B... "bi"
+C... "si"
+D... "di"
+E... "i"
+F... "ef"
+G... "yi"
+H... "eich"
+I... "ai"
+J... "yei"
+K... "kei"
+L... "el"
+M... "em"
+N... "en"
+O... "ou"
+P... "pi"
+Q... "kiu"
+R... "ar"
+S... "es"
+T... "ti"
+U... "yu"
+V... "vi"
+W... "dóbel yu"
+X... "eks"
+Y... "uai"
+Z... "si"
 
-En inglés: "A, B, C, D, E" … en español: A, Be, Se, De, E
-[pausa]
+Las más difíciles para nosotros son:
+H, que suena "eich"... no "ache".
+W, que suena "dóbel yu"... no "doble ve".
+J, que suena "yei"... no "jota".
 
-En inglés: "F, G, H, I, J" … ¡Ojo! La H en inglés suena "Eitsh", no "ache"
-[pausa]
-
-En inglés: "W, X, Y, Z" … la Y suena "Uai" y la Z suena "Zi"
-[pausa]
-
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Repite el alfabeto completo en voz alta todos los días!
+¡Tú puedes! Lets gou!
 
 ---
 
-### VIDEO 2 — Vocales y Consonantes
+### VIDEO 2 — Vocales, Consonantes y "A" vs "An"
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... las vocales y consonantes del inglés.
+Hoy aprenderemos las vocales, consonantes, y una regla muy importante.
 
-En inglés hay 5 vocales: A, E, I, O, U. ¡Igual que en español!
-Las otras 21 letras son consonantes. Esto es muy importante porque determina si usamos "a" o "an" antes de una palabra.
+Las vocales en inglés son cinco: "ei", "i", "ai", "ou", "yu"... 
+Es decir: A, E, I, O, U. ¡Igual que en español!
+Las otras 21 letras son consonantes.
 
-Escucha y repite:
+Ahora la regla del artículo:
+Usamos "a" antes de consonantes:
+"a buk"... un libro.
+"a kat"... un gato.
+"a dog"... un perro.
 
-En inglés: "A, E, I, O, U" … las cinco vocales. ¡Memorízalas!
-[pausa]
+Usamos "an" antes de vocales:
+"an épol"... una manzana.
+"an eg"... un huevo.
+"an óranch"... una naranja.
 
-En inglés: "An apple" … en español: una manzana. ¡"Apple" empieza con vocal, por eso "an"!
-[pausa]
+¡Ojo con estas excepciones!
+"an áuer"... una hora. La H es silenciosa, cuenta como vocal.
+"a yunivérsiti"... una universidad. Suena como consonante Y.
 
-En inglés: "A book" … en español: un libro. ¡"Book" empieza con consonante, por eso "a"!
-[pausa]
+La regla es: escucha el SONIDO, no la letra.
 
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Ahora practica con los ejercicios!
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 3 — Deletreo: Spelling en inglés
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... cómo deletrear palabras en inglés.
+Hoy aprenderemos a deletrear en inglés.
 
-Deletrear en inglés se llama "spelling". Cuando alguien no entiende tu nombre o una palabra, puedes deletrearlo diciendo cada letra. ¡Es muy útil en la vida real!
+Deletrear se dice "spéling". Es decir cada letra de una palabra.
+En inglés se usa mucho cuando alguien no entiende tu nombre.
 
-Escucha y repite:
+La pregunta para deletrear es:
+"Jau du yu spel yur neim?"... ¿Cómo se escribe tu nombre?
 
-En inglés: "How do you spell your name?" … en español: ¿Cómo se escribe tu nombre?
-[pausa]
+Escucha cómo se deletrean estas palabras:
 
-En inglés: "C-A-T … cat" … en español: G-A-T-O … gato
-[pausa]
+"kat"... se escribe: si, ei, ti. CAT. Gato.
+"dog"... se escribe: di, ou, yi. DOG. Perro.
+"buk"... se escribe: bi, ou, kei. BOOK. Libro.
+"san"... se escribe: es, yu, en. SUN. Sol.
+"skul"... se escribe: es, si, eich, ou, ou, el. SCHOOL. Escuela.
+"tícher"... se escribe: ti, i, ei, si, eich, i, ar. TEACHER. Maestro.
 
-En inglés: "D-O-G … dog" … en español: P-E-R-R-O … perro
-[pausa]
+¿Ves cómo algunas palabras se escriben diferente a como suenan?
+¡Eso es lo especial del inglés!
 
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Practica deletreando tu nombre en inglés!
+¡Tú puedes! Lets gou!
 
 ---
 
-### VIDEO 4 — Sílabas y Acento de Palabras
+### VIDEO 4 — Sílabas y Acento en inglés
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... las sílabas y el acento en inglés.
+Hoy aprenderemos sobre las sílabas y el acento en inglés.
 
-En inglés, igual que en español, las palabras se dividen en sílabas.
-El acento es la sílaba que se pronuncia más fuerte. Poner el acento en la sílaba incorrecta puede cambiar el significado de la palabra. ¡Así que es muy importante!
+Una sílaba es un grupo de sonidos con una vocal.
+En inglés, el acento cae fuerte en una sílaba específica.
+¡Equivocarse de acento puede causar malentendidos!
 
-Escucha cómo divido estas palabras en sílabas:
+Escucha y cuenta las sílabas:
 
-En inglés: "hap-py" … dos sílabas, el acento está en la primera: HAP-py
-[pausa]
+"kat"... 1 sílaba. CAT.
+"jápi"... 2 sílabas: JAP-pi. HAPPY. Feliz.
+"Inglish"... 2 sílabas: ING-glish. ENGLISH.
+"bíutifl"... 3 sílabas: BIU-ti-fl. BEAUTIFUL. Hermoso.
 
-En inglés: "stu-dent" … dos sílabas, el acento está en la primera: STU-dent
-[pausa]
+Ahora el acento. ¡Escucha dónde cae la fuerza!
 
-En inglés: "beau-ti-ful" … tres sílabas, el acento en la primera: BEAU-ti-ful
-[pausa]
+"jelOU"... el acento cae en LOU. HELLO.
+"STIUdent"... el acento cae en STIU. STUDENT.
+"unDERstand"... el acento cae al final. UNDERSTAND.
 
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡El acento cambia según la palabra, no hay una regla fija!
+Por eso es importante escuchar mucho inglés.
+
+¡Practica en voz alta!
+¡Tú puedes! Lets gou!
 
 ---
 
@@ -112,168 +156,220 @@ En inglés: "beau-ti-ful" … tres sílabas, el acento en la primera: BEAU-ti-fu
 ### VIDEO 5 — Saludos básicos en inglés
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... los saludos básicos en inglés.
+Hoy aprenderemos los saludos más importantes del inglés.
 
-Saludar es lo primero que hacemos cuando conocemos a alguien.
-En inglés hay saludos para cada momento del día, y son muy fáciles de aprender.
+Para decir hola:
+"Jelou"... Hello. ¡El más formal!
+"Jai"... Hi. ¡Más casual entre amigos!
 
-Escucha y repite conmigo:
+Para saludar según la hora del día:
+"Gud morning"... Buenos días.
+"Gud afternún"... Buenas tardes.
+"Gud ívning"... Buenas noches al llegar.
+"Gud nait"... Buenas noches al despedirse.
 
-En inglés: "Good morning!" … en español: ¡Buenos días! Lo dices antes del mediodía.
-[pausa]
+Para preguntar cómo está alguien:
+"Jau ar yu?"... ¿Cómo estás?
+Y respondemos: "Aim fain, zenks!"... ¡Estoy bien, gracias!
 
-En inglés: "Good afternoon!" … en español: ¡Buenas tardes! Lo dices entre el mediodía y las 6.
-[pausa]
+Para despedirse:
+"Gudbai"... Goodbye.
+"Bai"... Bye. ¡Más informal!
+"Si yu léiter"... See you later. ¡Hasta luego!
 
-En inglés: "How are you? I'm fine, thanks!" … en español: ¿Cómo estás? ¡Estoy bien, gracias!
-[pausa]
+Y al conocer a alguien por primera vez:
+"Nais tu mit yu"... Nice to meet you. ¡Mucho gusto!
 
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Practica estos saludos hoy mismo con alguien!
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 6 — Cómo presentarte en inglés
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... cómo presentarte en inglés.
+Hoy aprenderemos a presentarnos en inglés.
 
-Presentarse es decir quién eres: tu nombre, de dónde eres y cuántos años tienes.
-En inglés es muy sencillo. Solo necesitas tres frases básicas.
+Para decir tu nombre:
+"Mai neim is Carlos"... My name is Carlos. Me llamo Carlos.
 
-Escucha y repite:
+Para decir de dónde eres:
+"Ai am from Colombia"... I am from Colombia. Soy de Colombia.
 
-En inglés: "My name is Ping" … en español: Me llamo Ping
-[pausa]
+Para decir tu edad:
+"Ai am tuénti yirs ould"... I am twenty years old. Tengo 20 años.
 
-En inglés: "I am from Colombia" … en español: Soy de Colombia
-[pausa]
+Ahora las preguntas para conocer a alguien:
+"Uat is yur neim?"... What is your name? ¿Cómo te llamas?
+"Uer ar yu from?"... Where are you from? ¿De dónde eres?
+"Jau ould ar yu?"... How old are you? ¿Cuántos años tienes?
 
-En inglés: "I am ten years old" … en español: Tengo diez años
-[pausa]
+Practica esta conversación completa:
+"Jelou! Mai neim is..."
+"Ai am from..."
+"Ai am ... yirs ould."
+"Nais tu mit yu!"
 
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Con esto puedes presentarte en cualquier lugar del mundo!
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 7 — Países y Nacionalidades en inglés
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... los países y nacionalidades en inglés.
+Hoy aprenderemos los países y nacionalidades en inglés.
 
-Cuando te preguntan "Where are you from?", debes responder con tu país.
-Y cuando describes la nacionalidad de alguien, en inglés casi siempre agrega "n" o "an" al final del país.
+Escucha cómo se dice cada país y su nacionalidad:
 
-Escucha y repite:
+Colombia... "Colombian". Kolombian. Colombiano.
+España... "Spain"... "Spanish". Espanish. Español.
+México... "Mexico"... "Mexican". Meksikan. Mexicano.
+Brasil... "Brazil"... "Brazilian". Brasilian. Brasileño.
+Francia... "France"... "French". French. Francés.
+Inglaterra... "England"... "English". Inglish. Inglés.
+Estados Unidos... "The United States"... "American". American.
+Alemania... "Germany"... "German". Yermon.
 
-En inglés: "I am from Colombia. I am Colombian." … en español: Soy de Colombia. Soy colombiano.
-[pausa]
+Para decir tu nacionalidad:
+"Ai am Colombian"... Soy colombiano.
+"Shi is Spanish"... Ella es española.
+"Ji is American"... Él es americano.
 
-En inglés: "She is from Spain. She is Spanish." … en español: Ella es de España. Ella es española.
-[pausa]
+¡Importante! En inglés las nacionalidades siempre se escriben con mayúscula.
+Colombian, Spanish, Mexican... ¡Siempre mayúscula!
 
-En inglés: "He is from Brazil. He is Brazilian." … en español: Él es de Brasil. Él es brasileño.
-[pausa]
-
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Ahora practica tu país y nacionalidad!
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 8 — Profesiones básicas: What do you do?
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... cómo hablar de profesiones en inglés.
+Hoy aprenderemos las profesiones en inglés.
 
-Cuando alguien te pregunta "What do you do?", está preguntando a qué te dedicas, cuál es tu profesión.
-La respuesta siempre empieza con "I am a" o "I am an" seguido de la profesión.
+La pregunta para preguntar la profesión es:
+"Uat du yu du?"... What do you do? ¿A qué te dedicas?
 
-Escucha y repite:
+Y respondemos con "I am a..." más la profesión.
 
-En inglés: "I am a teacher." … en español: Soy maestro / maestra.
-[pausa]
+Escucha las profesiones más comunes:
+"dóctor"... doctor. Médico.
+"tícher"... teacher. Maestro.
+"ners"... nurse. Enfermero.
+"enyiníar"... engineer. Ingeniero.
+"dráiver"... driver. Conductor.
+"lóyer"... lawyer. Abogado.
+"polísoman"... police officer. Policía.
+"fairfáiter"... firefighter. Bombero.
 
-En inglés: "She is a doctor." … en español: Ella es doctora.
-[pausa]
+¡Ojo con el artículo!
+Decimos: "Ai am a tícher"... I am a teacher.
+Pero: "Ai am an enyiníar"... I am an engineer.
+¿Recuerdas? "an" antes de vocal.
 
-En inglés: "He is an engineer." … en español: Él es ingeniero. ¡Ojo! "An" porque "engineer" empieza con vocal.
-[pausa]
-
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Ahora practica diciendo tu profesión en inglés!
+¡Tú puedes! Lets gou!
 
 ---
 
-### VIDEO 9 — Pronombres personales: I, you, he, she, it, we, they
+### VIDEO 9 — Pronombres personales
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... los pronombres personales en inglés.
+Hoy aprenderemos los pronombres personales en inglés.
 
-Los pronombres reemplazan los nombres de personas o cosas.
-En inglés son: I, you, he, she, it, we, they. ¡Solo siete y se usan todo el tiempo!
+Los pronombres reemplazan los nombres de personas y cosas.
 
-Escucha y repite:
+"Ai"... I. Yo. ¡Siempre se escribe con mayúscula!
+"Yu"... You. Tú, usted, ustedes. ¡Un solo pronombre para todos!
+"Ji"... He. Él.
+"Shi"... She. Ella.
+"It"... It. Ello. Para cosas, animales y el clima.
+"Ui"... We. Nosotros.
+"Dei"... They. Ellos, ellas.
 
-En inglés: "I am happy." … en español: Yo estoy feliz. I = yo.
-[pausa]
+Escucha los ejemplos:
+"Ai am a student"... I am a student. Yo soy estudiante.
+"Ji is my brother"... He is my brother. Él es mi hermano.
+"Shi is from Colombia"... She is from Colombia. Ella es de Colombia.
+"It is raining"... It is raining. Está lloviendo.
+"Ui ar friends"... We are friends. Somos amigos.
+"Dei ar my parents"... They are my parents. Ellos son mis padres.
 
-En inglés: "She is my sister." … en español: Ella es mi hermana. She = ella. He = él.
-[pausa]
+¡Recuerda! "Yu" sirve para singular y plural en inglés.
+"Ar yu a student?"... ¿Eres estudiante? o ¿Son ustedes estudiantes?
 
-En inglés: "They are my friends." … en español: Ellos son mis amigos. They = ellos, ellas.
-[pausa]
-
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 10 — Números del 1 al 20
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... los números del 1 al 20 en inglés.
+Hoy aprenderemos los números del 1 al 20.
 
-Los números son esenciales en el inglés diario: para decir tu edad, tu número de teléfono, pagar en una tienda… ¡los usarás todo el tiempo!
-Del 1 al 12 son únicos y hay que memorizarlos. Del 13 al 19 terminan en "teen".
+Escucha y repite cada número:
 
-Escucha y repite:
+1... "uán"... one.
+2... "tu"... two.
+3... "zri"... three.
+4... "for"... four.
+5... "faiv"... five.
+6... "siks"... six.
+7... "séven"... seven.
+8... "eit"... eight.
+9... "nain"... nine.
+10... "ten"... ten.
+11... "iléven"... eleven.
+12... "tuélv"... twelve.
+13... "zerTÍN"... thirteen.
+14... "forTÍN"... fourteen.
+15... "fifTÍN"... fifteen.
+16... "siksTÍN"... sixteen.
+17... "sevenTÍN"... seventeen.
+18... "eiTÍN"... eighteen.
+19... "nainTÍN"... nineteen.
+20... "tuénti"... twenty.
 
-En inglés: "One, two, three, four, five" … en español: uno, dos, tres, cuatro, cinco
-[pausa]
+¡Ojo! Del 13 al 19, el acento cae al FINAL: thirTEEN, fourTEEN...
+¡No los confundas con 30, 40... donde el acento va al inicio!
 
-En inglés: "Ten, eleven, twelve" … en español: diez, once, doce. ¡Estos son irregulares!
-[pausa]
+Para preguntar la edad: "Jau ould ar yu?"
+Y respondemos: "Ai am tuélv yirs ould"... I am twelve years old.
 
-En inglés: "Thirteen, fourteen, fifteen" … en español: trece, catorce, quince. ¡Todos terminan en "teen"!
-[pausa]
-
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 11 — Números del 20 al 100
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... los números del 20 al 100 en inglés.
+Hoy aprenderemos los números del 20 al 100.
 
-¡Buenas noticias! Los números del 20 al 100 siguen un patrón muy lógico.
-Las decenas terminan en "ty": twenty, thirty, forty… y los números intermedios se unen con un guion.
+Las decenas:
+20... "tuénti"... twenty.
+30... "zerti"... thirty.
+40... "forti"... forty. ¡Sin la U de four!
+50... "fifti"... fifty.
+60... "siksti"... sixty.
+70... "séventi"... seventy.
+80... "eiti"... eighty.
+90... "náinti"... ninety.
+100... "uán jándred"... one hundred.
 
-Escucha y repite:
+Para los números compuestos, une la decena con un guion:
+35... "zerti faiv"... thirty-five.
+48... "forti eit"... forty-eight.
+63... "siksti zri"... sixty-three.
+97... "náinti séven"... ninety-seven.
 
-En inglés: "Twenty, thirty, forty, fifty" … en español: veinte, treinta, cuarenta, cincuenta
-[pausa]
+¡Practica estos ejemplos de la vida real!
+Un año tiene "tuélv" meses y "tri jándred siksti faiv" días.
+Una hora tiene "siksti" minutos.
 
-En inglés: "Sixty, seventy, eighty, ninety, one hundred" … en español: sesenta, setenta, ochenta, noventa, cien
-[pausa]
-
-En inglés: "Thirty-five" … en español: treinta y cinco. ¡Thirty más guion más five!
-[pausa]
-
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Ya puedes contar hasta 100 en inglés!
+¡Tú puedes! Lets gou!
 
 ---
 
@@ -284,247 +380,279 @@ En inglés: "Thirty-five" … en español: treinta y cinco. ¡Thirty más guion 
 ### VIDEO 12 — To Be afirmativa: am / is / are
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... el verbo to be en afirmativa.
+Hoy aprenderemos el verbo más importante del inglés: TO BE.
 
-El verbo "to be" es el verbo más importante del inglés.
-Significa SER y ESTAR al mismo tiempo. Tiene tres formas: am, is y are.
-La regla es simple: I → am, he/she/it → is, y todo lo demás → are.
+"To bi"... To be. Significa SER y ESTAR. ¡Un solo verbo para los dos!
 
-Escucha y repite:
+Aprende esta tabla:
 
-En inglés: "I am happy." … en español: Yo estoy feliz. I → am.
-[pausa]
+Con "Ai"... uso "am": "Ai am"... I am. Yo soy / estoy.
+Con "Ji", "Shi", "It"... uso "is": "Ji is"... He is. Él es / está.
+Con "Yu", "Ui", "Dei"... uso "are": "Ui ar"... We are. Somos / estamos.
 
-En inglés: "She is a teacher." … en español: Ella es maestra. She → is.
-[pausa]
+Escucha los ejemplos:
+"Ai am a student"... I am a student. Soy estudiante.
+"Shi is beautiful"... She is beautiful. Ella es hermosa.
+"Dei ar my friends"... They are my friends. Ellos son mis amigos.
+"It is cold today"... It is cold today. Hace frío hoy.
 
-En inglés: "They are my friends." … en español: Ellos son mis amigos. They → are.
-[pausa]
+¡Importante! En inglés usamos "to be" para describir, identificar y dar ubicación.
+"Ui ar in Colombia"... We are in Colombia. Estamos en Colombia.
 
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Memoriza esta tabla: am, is, are!
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 13 — To Be negativa: am not / isn't / aren't
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... cómo hacer negaciones con el verbo to be.
+Hoy aprenderemos a hacer oraciones negativas con "to be".
 
-Para negar con to be, solo agrega "not" después del verbo.
-Y en conversación usamos contracciones: is not = isn't, are not = aren't.
-¡Así sonarás más natural!
+Para hacer negativo solo agrega "not" después del verbo.
 
-Escucha y repite:
+Con "I": "Ai am not"... I am not. ¡Esta NO tiene contracción corta!
+Con he/she/it: "is not"... se contrae como "isnt"... isn't.
+Con you/we/they: "are not"... se contrae como "arnt"... aren't.
 
-En inglés: "I am not tired." … en español: Yo no estoy cansado.
-[pausa]
+Escucha los ejemplos:
+"Ai am not tired"... I am not tired. No estoy cansado.
+"Shi isnt a doctor"... She isn't a doctor. Ella no es doctora.
+"Dei arnt from here"... They aren't from here. Ellos no son de aquí.
+"It isnt cold today"... It isn't cold today. No hace frío hoy.
+"Ui arnt ready"... We aren't ready. No estamos listos.
 
-En inglés: "She isn't a doctor." … en español: Ella no es doctora. Is not → isn't.
-[pausa]
+¡Recuerda! El apóstrofe va donde se omite la letra.
+"is not" → "isn't"... la O desaparece.
+"are not" → "aren't"... la O desaparece.
 
-En inglés: "They aren't ready." … en español: Ellos no están listos. Are not → aren't.
-[pausa]
-
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
-
----
-
-### VIDEO 14 — To Be interrogativa: Are you? / Is she?
-
-¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... cómo hacer preguntas con el verbo to be.
-
-En inglés, para hacer una pregunta con to be, solo inviertes el orden:
-En lugar de "You are…", dices "Are you…?" ¡Es así de simple!
-
-Escucha y repite:
-
-En inglés: "Are you a student?" … en español: ¿Eres estudiante?
-[pausa]
-
-En inglés: "Is she from Colombia?" … en español: ¿Es ella de Colombia?
-[pausa]
-
-En inglés: "Are they happy?" … en español: ¿Están ellos felices?
-[pausa]
-
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Tú puedes! Lets gou!
 
 ---
 
-### VIDEO 15 — Contracciones: I'm, she's, they're…
+### VIDEO 14 — To Be interrogativa: Am I? / Is she? / Are you?
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... las contracciones del verbo to be.
+Hoy aprenderemos a hacer preguntas con "to be".
 
-Las contracciones son versiones cortas que unimos con un apóstrofe.
-En inglés hablado y escrito informal, SIEMPRE usamos contracciones. ¡Suenan mucho más natural!
+¡Es muy simple! Solo INVIERTE el sujeto y el verbo.
 
-Escucha y repite:
+Afirmación: "Yu ar a student"... You are a student.
+Pregunta: "Ar yu a student?"... Are you a student?
 
-En inglés: "I am → I'm happy." … en español: Estoy feliz. I am se convierte en I'm.
-[pausa]
+Afirmación: "Shi is happy"... She is happy.
+Pregunta: "Is shi happy?"... Is she happy?
 
-En inglés: "She is → She's my sister." … en español: Ella es mi hermana. She is se convierte en She's.
-[pausa]
+Practica estas preguntas:
+"Am Ai late?"... Am I late? ¿Llego tarde?
+"Is Ji your brother?"... Is he your brother? ¿Él es tu hermano?
+"Ar dei from Spain?"... Are they from Spain? ¿Son ellos de España?
+"Is it raining?"... Is it raining? ¿Está lloviendo?
 
-En inglés: "They are → They're at school." … en español: Ellos están en la escuela. They are se convierte en They're.
-[pausa]
+Para responder de forma corta:
+"Yes, Ai am"... Yes, I am. Sí, lo soy.
+"No, Shi isnt"... No, she isn't. No, ella no lo es.
+"Yes, Dei ar"... Yes, they are. Sí, lo son.
 
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Tú puedes! Lets gou!
+
+---
+
+### VIDEO 15 — Contracciones con To Be
+
+¡Hola! Soy Ping, tu guía en Melinglish.
+Hoy aprenderemos las contracciones. Las contracciones hacen tu inglés más natural.
+
+Una contracción une dos palabras en una, con apóstrofe.
+
+Aprende todas las contracciones de "to be":
+"I am" → "Aim"... I'm.
+"He is" → "Yis"... He's.
+"She is" → "Shis"... She's.
+"It is" → "Its"... It's.
+"You are" → "Yur"... You're.
+"We are" → "Uir"... We're.
+"They are" → "Deir"... They're.
+
+Escucha la diferencia:
+Sin contracción: "Ai am jápi"... I am happy.
+Con contracción: "Aim jápi"... I'm happy. ¡Suena mucho más natural!
+
+Más ejemplos:
+"Shis my sister"... She's my sister. Ella es mi hermana.
+"Uir in Colombia"... We're in Colombia. Estamos en Colombia.
+"Deir my best friends"... They're my best friends. Son mis mejores amigos.
+
+¡Las contracciones son la forma natural de hablar inglés!
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 16 — Artículos "a" y "an"
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... los artículos "a" y "an" en inglés.
+Hoy repasamos una regla muy importante: cuándo usar "a" y cuándo "an".
 
-"A" y "an" significan "un" o "una" en español.
-La regla es simple: usa "an" antes de palabras que empiezan con sonido de VOCAL: a, e, i, o, u.
-Usa "a" antes de palabras que empiezan con sonido de CONSONANTE.
+Ambos significan "un" o "una". La diferencia está en el sonido siguiente.
 
-Escucha y repite:
+Usa "a" antes de sonido CONSONANTE:
+"a buk"... a book. Un libro.
+"a kat"... a cat. Un gato.
+"a dog"... a dog. Un perro.
+"a tícher"... a teacher. Un maestro.
+"a yunivérsiti"... a university. Una universidad. ¡Suena "yu", consonante!
 
-En inglés: "A cat, a book, a table" … en español: un gato, un libro, una mesa. ¡Consonantes!
-[pausa]
+Usa "an" antes de sonido VOCAL:
+"an épol"... an apple. Una manzana.
+"an eg"... an egg. Un huevo.
+"an óranch"... an orange. Una naranja.
+"an áuer"... an hour. Una hora. ¡La H es silenciosa, suena vocal!
+"an ambrela"... an umbrella. Un paraguas.
+"an enyiníar"... an engineer. Un ingeniero.
 
-En inglés: "An apple, an egg, an orange" … en español: una manzana, un huevo, una naranja. ¡Vocales!
-[pausa]
+¡La clave es escuchar el SONIDO, no ver la letra!
 
-En inglés: "An hour" … en español: una hora. ¡Ojo! La H es silenciosa, suena como vocal.
-[pausa]
-
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 17 — El artículo "the": cuándo usarlo
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... cuándo usar el artículo "the".
+Hoy aprenderemos el artículo "the"... que significa el, la, los, las.
 
-"The" significa "el", "la", "los" o "las" en español. Es el artículo definido.
-Lo usamos cuando hablamos de algo específico que ya conocemos, o cuando hay solo uno en el mundo.
+"The" es el artículo DEFINIDO. Se usa cuando ya sabes de qué hablas.
 
-Escucha y repite:
+Escucha la diferencia:
+"Ai si a dog"... I see a dog. Veo UN perro. No sé cuál.
+"De dog is big"... The dog is big. EL perro es grande. ¡Ya sabemos cuál!
 
-En inglés: "The sun is very hot." … en español: El sol es muy caliente. ¡Solo hay un sol!
-[pausa]
+Usamos "the" en estas situaciones:
 
-En inglés: "I see a dog. The dog is big." … en español: Veo un perro. El perro es grande. La segunda vez usamos "the" porque ya sabemos de qué perro hablamos.
-[pausa]
+Cuando algo es único en el mundo:
+"De san is jot"... The sun is hot. El sol es caliente.
+"De mun is beautiful"... The moon is beautiful.
 
-En inglés: "The Eiffel Tower is in Paris." … en español: La Torre Eiffel está en París. ¡Lugar único!
-[pausa]
+Con monumentos y lugares únicos:
+"De Eifel Táuer is in Paris"... The Eiffel Tower is in Paris.
+"De Amazon Ríver"... The Amazon River. El río Amazonas.
 
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+Con instrumentos musicales:
+"Shi plays de piano"... She plays the piano. Ella toca el piano.
+
+¡Recuerda! La segunda vez que mencionas algo, usas "the":
+"Ai jav a kat. De kat is blak"... Tengo un gato. El gato es negro.
+
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 18 — This / That / These / Those
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... this, that, these y those.
+Hoy aprenderemos los demostrativos: this, that, these, those.
 
-Estas palabras señalan cosas, como cuando apuntas con el dedo.
-"This" y "these" son para cosas CERCA de ti.
-"That" y "those" son para cosas LEJOS de ti.
-¡Y recuerda: "this" y "that" son singular, "these" y "those" son plural!
+Son palabras para señalar cosas. Como decir "este", "ese", "estos", "esos".
 
-Escucha y repite:
+"Dis"... This. Esto. Singular y CERCA de ti.
+"Dat"... That. Eso. Singular y LEJOS de ti.
+"Dís"... These. Estos. Plural y CERCA de ti.
+"Dous"... Those. Esos. Plural y LEJOS de ti.
 
-En inglés: "This is my pen." … en español: Este es mi bolígrafo. Cerca, singular.
-[pausa]
+Escucha los ejemplos:
+"Dis is my book"... This is my book. Este es mi libro. ¡Lo tengo en la mano!
+"Dat is my car"... That is my car. Ese es mi carro. ¡Está en el estacionamiento!
+"Dís ar my friends"... These are my friends. Estos son mis amigos. ¡Están aquí!
+"Dous ar your shoes"... Those are your shoes. Esos son tus zapatos. ¡Están lejos!
 
-En inglés: "These are my books." … en español: Estos son mis libros. Cerca, plural.
-[pausa]
+¡Truco para recordar!
+"This" y "These"... empiezan con S... están cerca.
+"That" y "Those"... empiezan con T... están lejos.
 
-En inglés: "That is her car." … en español: Ese es su carro. Lejos, singular.
-[pausa]
-
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 19 — Adjetivos básicos: big, small, old, new…
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... los adjetivos básicos en inglés.
+Hoy aprenderemos los adjetivos más comunes del inglés.
 
-Los adjetivos describen cómo son las cosas o las personas.
-En inglés hay una diferencia muy importante: el adjetivo siempre va ANTES del sustantivo.
-En español decimos "la casa grande", pero en inglés decimos "the big house". ¡Al revés!
+¡Importante! En inglés el adjetivo va ANTES del sustantivo.
+"A big dog"... Un perro grande. No: "a dog big". ¡Eso no existe en inglés!
 
-Escucha y repite:
+Aprende estos pares de opuestos:
+"big"... grande. "smol"... small. Pequeño.
+"jot"... hot. Caliente. "could"... cold. Frío.
+"ould"... old. Viejo. "niu"... new. Nuevo.
+"fast"... rápido. "slou"... slow. Lento.
+"jápi"... happy. Feliz. "sad"... triste.
+"tol"... tall. Alto. "short"... short. Bajo.
+"bjutiful"... beautiful. Hermoso. "ágly"... ugly. Feo.
+"isy"... easy. Fácil. "jard"... hard. Difícil.
 
-En inglés: "A big house." … en español: Una casa grande. Big = grande, small = pequeño.
-[pausa]
+Escucha los ejemplos completos:
+"It is a bjutiful dei"... It is a beautiful day. Es un día hermoso.
+"Shi has long jéar"... She has long hair. Ella tiene cabello largo.
+"It is a isy leson"... It is an easy lesson. Es una lección fácil.
 
-En inglés: "An old car." … en español: Un carro viejo. Old = viejo, new = nuevo.
-[pausa]
-
-En inglés: "A beautiful day." … en español: Un día hermoso. Beautiful = hermoso, ugly = feo.
-[pausa]
-
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Cuantos más adjetivos sepas, mejor hablarás inglés!
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 20 — Posesivos: my, your, his, her, its, our, their
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... los adjetivos posesivos en inglés.
+Hoy aprenderemos los adjetivos posesivos. ¡Son muy fáciles!
 
-Los posesivos indican a quién pertenece algo.
-En inglés son: my, your, his, her, its, our, their.
-¡La buena noticia es que no cambian según masculino o femenino!
+Los posesivos van ANTES del sustantivo y nunca cambian.
 
-Escucha y repite:
+"mai"... my. Mi, mis. → "Mai neim is Carlos"... My name is Carlos.
+"yur"... your. Tu, tus. → "Yur buk is jir"... Your book is here.
+"jis"... his. Su, de él. → "Jis car is red"... His car is red.
+"jer"... her. Su, de ella. → "Jer neim is María"... Her name is María.
+"its"... its. Su, de ello. → "Its teil is long"... Its tail is long. La cola del animal.
+"áuer"... our. Nuestro. → "Áuer jaus is big"... Our house is big.
+"deir"... their. Su, de ellos. → "Deir frends ar nais"... Their friends are nice.
 
-En inglés: "My name is Ping." … en español: Mi nombre es Ping. My = mi, mis.
-[pausa]
+¡Cuidado con "his" y "her"!
+"jis"... his. Se usa solo para él.
+"jer"... her. Se usa solo para ella.
+¡No los confundas con el español "su" que sirve para todos!
 
-En inglés: "His car is red. Her bag is blue." … en español: Su carro es rojo (de él). Su bolsa es azul (de ella). His = de él, her = de ella.
-[pausa]
-
-En inglés: "Their house is big." … en español: Su casa es grande (de ellos). Their = de ellos.
-[pausa]
-
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 21 — Sustantivos: singular y plural regular
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... cómo formar el plural de los sustantivos en inglés.
+Hoy aprenderemos a formar plurales en inglés.
 
-La regla más común es muy fácil: agrega una S al final de la palabra.
-Pero hay algunas reglas especiales para palabras que terminan en s, x, ch, sh o en consonante más y.
+La regla más común: agrega S al final.
+"buk" → "buks"... book → books. Libros.
+"kat" → "kats"... cat → cats. Gatos.
+"dog" → "dogs"... dog → dogs. Perros.
 
-Escucha y repite:
+Palabras que terminan en S, X, CH, SH: agrega ES.
+"boks" → "bókses"... box → boxes. Cajas.
+"dish" → "díshes"... dish → dishes. Platos.
+"bos" → "bóses"... bus → buses. Autobuses.
 
-En inglés: "One book → two books." … en español: Un libro → dos libros. ¡Solo agrega S!
-[pausa]
+Palabras que terminan en consonante más Y: cambia Y por IES.
+"béibi" → "béibis"... baby → babies. Bebés.
+"síti" → "sítis"... city → cities. Ciudades.
 
-En inglés: "One box → two boxes." … en español: Una caja → dos cajas. Termina en X, agrega ES.
-[pausa]
+¡Y los irregulares que debes MEMORIZAR!
+"man" → "men"... hombre → hombres.
+"uóman" → "uímen"... woman → women. Mujer → mujeres.
+"chaild" → "children"... child → children. Niño → niños.
+"tuz" → "tiz"... tooth → teeth. Diente → dientes.
+"fut" → "fit"... foot → feet. Pie → pies.
+"pérson" → "pípol"... person → people. Persona → personas.
 
-En inglés: "One baby → two babies." … en español: Un bebé → dos bebés. La Y cambia a IES: babies.
-[pausa]
-
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Tú puedes! Lets gou!
 
 ---
 
@@ -535,166 +663,230 @@ En inglés: "One baby → two babies." … en español: Un bebé → dos bebés.
 ### VIDEO 22 — La familia en inglés
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... el vocabulario de la familia en inglés.
+Hoy aprenderemos el vocabulario de la familia.
 
-Hablar de la familia es una de las primeras cosas que haces cuando conoces a alguien.
-¡Con estas palabras podrás presentar a toda tu familia en inglés!
+Los miembros principales de la familia:
+"máder"... mother. Mamá.
+"fáder"... father. Papá.
+"bráder"... brother. Hermano.
+"sister"... sister. Hermana.
+"grándmáder"... grandmother. Abuela.
+"grándfather"... grandfather. Abuelo.
+"ant"... aunt. Tía.
+"ánkol"... uncle. Tío.
+"kásin"... cousin. Primo o prima.
+"san"... son. Hijo.
+"dóter"... daughter. Hija.
+"jiusband"... husband. Esposo.
+"waif"... wife. Esposa.
 
-Escucha y repite:
+Escucha estas oraciones de ejemplo:
+"Mai máder is a tícher"... My mother is a teacher. Mi mamá es maestra.
+"Ai jav tú bráders"... I have two brothers. Tengo dos hermanos.
+"Ji is my fáder"... He is my father. Él es mi padre.
+"Uir a big famili"... We're a big family. Somos una familia grande.
 
-En inglés: "Mother and father." … en español: Mamá y papá.
-[pausa]
-
-En inglés: "Brother and sister." … en español: Hermano y hermana.
-[pausa]
-
-En inglés: "Grandfather and grandmother." … en español: Abuelo y abuela. También puedes decir "grandpa" y "grandma" de manera informal.
-[pausa]
-
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Practica describiendo tu familia en inglés!
+¡Tú puedes! Lets gou!
 
 ---
 
-### VIDEO 23 — El hogar y las habitaciones de la casa
+### VIDEO 23 — El hogar y las habitaciones
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... los nombres de las habitaciones de la casa en inglés.
+Hoy aprenderemos las habitaciones y partes de la casa.
 
-Describir tu casa o preguntar dónde está algo son situaciones muy comunes.
-¡Con estas palabras podrás moverte por cualquier casa en inglés!
+Las habitaciones más importantes:
+"kítchen"... kitchen. Cocina. ¡Donde cocinas!
+"bédrum"... bedroom. Cuarto. ¡Donde duermes!
+"bátzrum"... bathroom. Baño.
+"líving rum"... living room. Sala.
+"dáining rum"... dining room. Comedor.
+"garásh"... garage. Garaje.
+"gárden"... garden. Jardín.
 
-Escucha y repite:
+Otras partes de la casa:
+"dor"... door. Puerta.
+"uíndou"... window. Ventana.
+"stairs"... stairs. Escaleras.
+"roof"... roof. Techo.
+"flor"... floor. Piso.
 
-En inglés: "Kitchen." … en español: Cocina. Where do you cook? In the kitchen!
-[pausa]
+Escucha los ejemplos:
+"Ai slip in mai bédrum"... I sleep in my bedroom. Duermo en mi cuarto.
+"Ui it in de dáining rum"... We eat in the dining room.
+"De kat is in de kítchen"... The cat is in the kitchen.
 
-En inglés: "Bedroom." … en español: Dormitorio o cuarto. Where do you sleep? In the bedroom!
-[pausa]
-
-En inglés: "Living room." … en español: Sala de estar. Where do you watch TV? In the living room!
-[pausa]
-
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Describe tu casa en inglés!
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 24 — Comida y bebida: breakfast, lunch, dinner
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... el vocabulario de comida y bebida en inglés.
+Hoy aprenderemos el vocabulario de la comida.
 
-La comida es un tema universal. Saber los nombres de las comidas y las tres comidas del día te permitirá hablar en muchísimas situaciones cotidianas.
+Las tres comidas del día:
+"brékfast"... breakfast. Desayuno. La primera comida.
+"lanch"... lunch. Almuerzo. La comida del mediodía.
+"díner"... dinner. Cena. La última comida del día.
 
-Escucha y repite:
+Alimentos básicos:
+"bred"... bread. Pan.
+"eg"... egg. Huevo.
+"raiz"... rice. Arroz.
+"chicken"... chicken. Pollo.
+"fish"... fish. Pescado.
+"fruit"... fruit. Fruta.
+"vétchibols"... vegetables. Verduras.
 
-En inglés: "Breakfast, lunch, dinner." … en español: Desayuno, almuerzo, cena. ¡Las tres comidas del día!
-[pausa]
+Bebidas:
+"uóter"... water. Agua.
+"milk"... milk. Leche.
+"kofi"... coffee. Café.
+"yus"... juice. Jugo.
 
-En inglés: "Water, juice, milk, coffee." … en español: Agua, jugo, leche, café. ¡Las bebidas básicas!
-[pausa]
+Para expresar hambre y sed:
+"Aim jángri"... I'm hungry. Tengo hambre.
+"Aim zérsti"... I'm thirsty. Tengo sed.
+"Kan Ai jav som uóter, plis?"... Can I have some water, please?
 
-En inglés: "I'm hungry! I'm thirsty!" … en español: ¡Tengo hambre! ¡Tengo sed!
-[pausa]
-
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 25 — Colores y Ropa
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... los colores y la ropa en inglés.
+Hoy aprenderemos los colores y la ropa en inglés.
 
-Describir lo que llevas puesto o preguntar por una prenda de ropa son habilidades muy útiles, especialmente cuando vas de compras.
-¡Y los colores siempre van antes del nombre de la prenda!
+Los colores:
+"red"... rojo.
+"blu"... blue. Azul.
+"grin"... green. Verde.
+"yélou"... yellow. Amarillo.
+"óranch"... orange. Anaranjado.
+"pérpol"... purple. Morado.
+"pink"... rosa.
+"uait"... white. Blanco.
+"blak"... black. Negro.
+"bráun"... brown. Café.
 
-Escucha y repite:
+La ropa:
+"shert"... shirt. Camisa.
+"ti-shert"... T-shirt. Camiseta.
+"pants"... pants. Pantalón.
+"shus"... shoes. Zapatos.
+"yáket"... jacket. Chaqueta.
+"dres"... dress. Vestido.
+"soks"... socks. Medias.
+"jat"... hat. Sombrero.
 
-En inglés: "Red, blue, green, yellow, white, black." … en español: Rojo, azul, verde, amarillo, blanco, negro.
-[pausa]
+Para decir lo que llevas puesto:
+"Aim uéring a red shert"... I'm wearing a red shirt. Estoy usando una camisa roja.
+"Shi is uéring blu pants"... She is wearing blue pants.
 
-En inglés: "Shirt, pants, shoes, jacket." … en español: Camisa, pantalones, zapatos, chaqueta.
-[pausa]
-
-En inglés: "She is wearing a blue shirt." … en español: Ella está usando una camisa azul.
-[pausa]
-
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 26 — Animales comunes en inglés
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... los animales más comunes en inglés.
+Hoy aprenderemos los animales más comunes.
 
-Los animales aparecen en conversaciones, cuentos, canciones y muchas situaciones del día a día.
-¡Aprender los animales también es una de las formas más divertidas de practicar inglés!
+Animales domésticos:
+"dog"... perro.
+"kat"... cat. Gato.
+"fish"... fish. Pez.
+"berd"... bird. Pájaro.
+"rábit"... rabbit. Conejo.
 
-Escucha y repite:
+Animales de granja:
+"kau"... cow. Vaca.
+"jors"... horse. Caballo.
+"pig"... pig. Cerdo.
+"ship"... sheep. Oveja.
+"chiken"... chicken. Gallina.
 
-En inglés: "Dog, cat, bird." … en español: Perro, gato, pájaro. ¡Los animales domésticos más comunes!
-[pausa]
+Animales salvajes:
+"láion"... lion. León.
+"táiger"... tiger. Tigre.
+"elefant"... elephant. Elefante.
+"yiraf"... giraffe. Jirafa.
+"bér"... bear. Oso.
 
-En inglés: "Cow, horse, chicken." … en español: Vaca, caballo, pollo. ¡Animales de granja!
-[pausa]
+Escucha los ejemplos:
+"A berd kan flai"... A bird can fly. Un pájaro puede volar.
+"De dog is mai pet"... The dog is my pet. El perro es mi mascota.
+"Láions ar uaild ánimols"... Lions are wild animals. Los leones son animales salvajes.
 
-En inglés: "Lion, elephant, giraffe." … en español: León, elefante, jirafa. ¡Animales salvajes!
-[pausa]
-
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
-
----
-
-### VIDEO 27 — Estaciones, clima y tiempo
-
-¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... el vocabulario del clima y las estaciones en inglés.
-
-Hablar del tiempo es una de las conversaciones más comunes en inglés, especialmente en países de habla inglesa. ¡Y es perfecto para romper el hielo con alguien nuevo!
-
-Escucha y repite:
-
-En inglés: "It's sunny! It's raining! It's cold!" … en español: ¡Hay sol! ¡Está lloviendo! ¡Hace frío!
-[pausa]
-
-En inglés: "Spring, summer, autumn, winter." … en español: Primavera, verano, otoño, invierno.
-[pausa]
-
-En inglés: "What's the weather like today? It's hot and sunny!" … en español: ¿Cómo está el clima hoy? ¡Hace calor y hay sol!
-[pausa]
-
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Tú puedes! Lets gou!
 
 ---
 
-### VIDEO 28 — Meses del año y números ordinales
+### VIDEO 27 — Estaciones, clima y meses del año
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... los meses del año y los números ordinales en inglés.
+Hoy aprenderemos las estaciones del año y el clima.
 
-Los meses del año en inglés siempre se escriben con mayúscula.
-Y los números ordinales son los que usamos para las fechas y para poner cosas en orden: primero, segundo, tercero…
+Las cuatro estaciones:
+"spring"... primavera. Las flores crecen.
+"sámer"... summer. Verano. ¡Hace mucho calor!
+"otom"... autumn. Otoño. Las hojas caen.
+"uínter"... winter. Invierno. ¡Hace frío!
 
-Escucha y repite:
+El clima en inglés usa siempre "It is" o "It's":
+"Its jot"... It's hot. Hace calor.
+"Its could"... It's cold. Hace frío.
+"Its réining"... It's raining. Está lloviendo.
+"Its sáni"... It's sunny. Está soleado.
+"Its kláudi"... It's cloudy. Está nublado.
+"Its uíndi"... It's windy. Hace viento.
+"Its snóuing"... It's snowing. Está nevando.
 
-En inglés: "January, February, March, April, May, June." … en español: Enero, febrero, marzo, abril, mayo, junio.
-[pausa]
+Vocabulario extra:
+"ambrela"... umbrella. Paraguas.
+"cout"... coat. Abrigo.
+"temprechar"... temperature. Temperatura.
 
-En inglés: "July, August, September, October, November, December." … en español: Julio, agosto, septiembre, octubre, noviembre, diciembre.
-[pausa]
+¡Practica describiendo el clima de hoy!
+¡Tú puedes! Lets gou!
 
-En inglés: "First, second, third, fourth, fifth." … en español: Primero, segundo, tercero, cuarto, quinto. ¡Para las fechas!
-[pausa]
+---
 
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+### VIDEO 28 — Meses del año y Números Ordinales
+
+¡Hola! Soy Ping, tu guía en Melinglish.
+Hoy aprenderemos los meses y los números ordinales.
+
+Los doce meses del año:
+"Yánuari"... January. Enero.
+"Fébruari"... February. Febrero.
+"March"... March. Marzo.
+"Éiprol"... April. Abril.
+"Mei"... May. Mayo.
+"Yun"... June. Junio.
+"Yulái"... July. Julio.
+"Ógost"... August. Agosto.
+"September"... September. Septiembre.
+"Október"... October. Octubre.
+"Novémber"... November. Noviembre.
+"Disémber"... December. Diciembre.
+
+Ahora los números ordinales más importantes:
+"ferst"... first. Primero. 1st.
+"sékond"... second. Segundo. 2nd.
+"zerd"... third. Tercero. 3rd.
+"forz"... fourth. Cuarto. 4th.
+"fifz"... fifth. Quinto. 5th.
+
+Para decir una fecha: mes + ordinal.
+"Mai berzday is in Disémber"... My birthday is in December.
+"Yánuari is de ferst manz of de yir"... January is the first month of the year.
+
+¡Tú puedes! Lets gou!
 
 ---
 
@@ -705,294 +897,366 @@ En inglés: "First, second, third, fourth, fifth." … en español: Primero, seg
 ### VIDEO 29 — Presente Simple afirmativo: I work / She works
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... el presente simple afirmativo en inglés.
+Hoy aprenderemos el presente simple. ¡Es el tiempo verbal más usado del inglés!
 
-El presente simple se usa para hablar de hábitos, rutinas y verdades generales.
-La regla más importante: con he, she o it, el verbo agrega una S al final.
+Se usa para hablar de hábitos, rutinas y hechos.
 
-Escucha y repite:
+Con "I, you, we, they": el verbo NO cambia.
+"Ai uerk"... I work. Yo trabajo.
+"Yu liv in Bogotá"... You live in Bogotá. Tú vives en Bogotá.
+"Ui stádi English"... We study English. Nosotros estudiamos inglés.
 
-En inglés: "I eat breakfast every morning." … en español: Yo desayuno cada mañana.
-[pausa]
+Con "he, she, it": el verbo agrega S.
+"Ji uerks"... He works. Él trabaja.
+"Shi livs in Bogotá"... She lives in Bogotá. Ella vive en Bogotá.
+"It réins a lot"... It rains a lot. Llueve mucho.
 
-En inglés: "She works at a hospital." … en español: Ella trabaja en un hospital. ¡Work + S porque es "she"!
-[pausa]
+¡Atención a los verbos irregulares!
+"go" → "gous"... goes. Ji gous tu skul. He goes to school.
+"do" → "das"... does. Shi das joumwerk. She does homework.
+"have" → "jas"... has. Ji jas a dog. He has a dog.
+"woch" → "uóches"... watches. Shi uóches TV. She watches TV.
 
-En inglés: "They study English every day." … en español: Ellos estudian inglés todos los días.
-[pausa]
-
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Memoriza: con he, she, it... siempre agrega S!
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 30 — Negaciones: don't y doesn't
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... cómo hacer negaciones en el presente simple.
+Hoy aprenderemos a hacer oraciones negativas en presente simple.
 
-Para negar en presente simple usamos "don't" o "doesn't" antes del verbo.
-La regla es: con I, you, we, they → don't. Con he, she, it → doesn't.
-¡Y el verbo principal NO cambia, siempre va en su forma base!
+Para hacer negativo, añade "do not" o "does not" antes del verbo base.
 
-Escucha y repite:
+Con I, you, we, they: usa "dount"... don't.
+"Ai dount laik kófi"... I don't like coffee. No me gusta el café.
+"Dei dount liv jir"... They don't live here. Ellos no viven aquí.
 
-En inglés: "I don't like coffee." … en español: A mí no me gusta el café.
-[pausa]
+Con he, she, it: usa "dásent"... doesn't.
+"Ji dásent uerk on Sándays"... He doesn't work on Sundays. Él no trabaja los domingos.
+"Shi dásent spik French"... She doesn't speak French. Ella no habla francés.
 
-En inglés: "She doesn't eat meat." … en español: Ella no come carne.
-[pausa]
+¡Ojo muy importante!
+Con "doesn't", el verbo vuelve a su forma BASE, ¡sin S!
+Incorrecto: "Shi dásent uerks" ❌
+Correcto: "Shi dásent uerk" ✅
 
-En inglés: "They don't speak French." … en español: Ellos no hablan francés.
-[pausa]
+Más ejemplos:
+"Ai dount jav a car"... I don't have a car.
+"It dásent rain in de désert"... It doesn't rain in the desert.
 
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 31 — Preguntas en presente simple: Do you? / Does she?
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... cómo hacer preguntas en el presente simple.
+Hoy aprenderemos a hacer preguntas en presente simple.
 
-Para preguntar en presente simple usamos "Do" o "Does" al inicio.
-Con I, you, we, they → Do. Con he, she, it → Does.
-¡Y el verbo principal siempre va en su forma base, sin S!
+Para preguntar, usa "do" o "does" al inicio.
 
-Escucha y repite:
+Con I, you, we, they: usa "du"... do.
+"Du yu spik English?"... Do you speak English? ¿Hablas inglés?
+"Du dei liv in Medellín?"... Do they live in Medellín?
 
-En inglés: "Do you speak English?" … en español: ¿Hablas inglés?
-[pausa]
+Con he, she, it: usa "das"... does.
+"Das shi laik music?"... Does she like music? ¿A ella le gusta la música?
+"Das it rain jir?"... Does it rain here? ¿Llueve aquí?
 
-En inglés: "Does she like pizza?" … en español: ¿Le gusta la pizza a ella?
-[pausa]
+¡Y el verbo va en forma BASE, sin S!
+Incorrecto: "Das shi likes?" ❌
+Correcto: "Das shi laik?" ✅
 
-En inglés: "Do they live in Bogotá?" … en español: ¿Viven ellos en Bogotá?
-[pausa]
+Las respuestas cortas:
+"Yes, Ai du"... Yes, I do. Sí.
+"Nou, Ai dount"... No, I don't. No.
+"Yes, Shi das"... Yes, she does. Sí.
+"Nou, Shi dásent"... No, she doesn't. No.
 
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Practica haciendo preguntas sobre tu vida diaria!
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 32 — Adverbios de frecuencia: always, usually, never…
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... los adverbios de frecuencia en inglés.
+Hoy aprenderemos los adverbios de frecuencia.
+¡Son perfectos para hablar de tus rutinas!
 
-Los adverbios de frecuencia dicen con qué frecuencia haces algo.
-Van justo ANTES del verbo principal en la oración. ¡Eso es diferente al español!
+Escucha del más frecuente al menos frecuente:
+"ólues"... always. Siempre. ¡El 100% del tiempo!
+"yúzhuoli"... usually. Normalmente. El 80%.
+"ófen"... often. Frecuentemente. El 60%.
+"sámtaims"... sometimes. A veces. El 50%.
+"rérli"... rarely. Rara vez. El 10%.
+"néver"... never. Nunca. ¡El 0%!
 
-Escucha y repite:
+¿Dónde van en la oración?
+Antes del verbo principal:
+"Ai álues it brékfast"... I always eat breakfast. Siempre desayuno.
+"Shi néver drinks alkójol"... She never drinks alcohol. Ella nunca bebe alcohol.
 
-En inglés: "I always brush my teeth." … en español: Yo siempre me cepillo los dientes. Always = siempre, 100%.
-[pausa]
+¡Pero después del verbo TO BE!
+"Shi is álues jápi"... She is always happy. Ella siempre está feliz.
+"Dei ar sámtaims leyt"... They are sometimes late. Ellos a veces llegan tarde.
 
-En inglés: "She usually eats breakfast." … en español: Ella normalmente desayuna. Usually = normalmente.
-[pausa]
-
-En inglés: "He never drinks coffee." … en español: Él nunca toma café. Never = nunca, 0%.
-[pausa]
-
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 33 — La hora: What time is it?
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... cómo preguntar y decir la hora en inglés.
+Hoy aprenderemos a decir y preguntar la hora en inglés.
 
-Preguntar la hora es algo que hacemos todos los días.
-En inglés usamos "o'clock" para las horas exactas, "past" para los minutos después de la hora y "to" para los minutos que faltan.
+La pregunta es:
+"Uat taim is it?"... What time is it? ¿Qué hora es?
 
-Escucha y repite:
+Para la hora en punto:
+"Its zri oklok"... It's three o'clock. Son las tres en punto.
+"Its ten oklok"... It's ten o'clock. Son las diez en punto.
 
-En inglés: "What time is it? It's three o'clock." … en español: ¿Qué hora es? Son las tres en punto.
-[pausa]
+Para la media hora:
+"Jaf past séven"... half past seven. Son las siete y media. 7:30.
 
-En inglés: "It's half past seven." … en español: Son las siete y media. Half past = y media.
-[pausa]
+Para el cuarto de hora:
+"Kuórter past zri"... quarter past three. Son las tres y cuarto. 3:15.
+"Kuórter tu faiv"... quarter to five. Son las cinco menos cuarto. 4:45.
 
-En inglés: "It's quarter to five." … en español: Son las cinco menos cuarto. Quarter to = cuarto para.
-[pausa]
+Para minutos:
+"Ten past nain"... ten past nine. Son las nueve y diez. 9:10.
+"Tuénti tu eit"... twenty to eight. Son las ocho menos veinte. 7:40.
 
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Partes del día!
+"In de morning"... en la mañana.
+"In de afternún"... en la tarde.
+"At nait"... en la noche.
+
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 34 — Preposiciones de tiempo: at, in, on
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... las preposiciones de tiempo: at, in y on.
+Hoy aprenderemos tres preposiciones de tiempo esenciales.
 
-Estas tres pequeñas palabras son muy importantes para decir cuándo pasa algo.
-La regla que debes recordar: at para horas, in para meses y años, on para días y fechas específicas.
+"ON" se usa con días y fechas:
+"on Mándei"... on Monday. El lunes.
+"on Friday"... on Friday. El viernes.
+"on Ógost fiftiinz"... on August 15th. El 15 de agosto.
 
-Escucha y repite:
+"AT" se usa con horas y momentos específicos:
+"at siks oklok"... at six o'clock. A las seis.
+"at nun"... at noon. Al mediodía.
+"at nait"... at night. Por la noche.
+"at maídnait"... at midnight. A medianoche.
 
-En inglés: "I wake up at seven o'clock." … en español: Me despierto a las siete. At + hora.
-[pausa]
+"IN" se usa con meses, años y partes del día:
+"in Yánuari"... in January. En enero.
+"in tuentififor"... in 2024. En 2024.
+"in de morning"... in the morning. Por la mañana.
+"in de afternún"... in the afternoon. Por la tarde.
 
-En inglés: "My birthday is in August." … en español: Mi cumpleaños es en agosto. In + mes.
-[pausa]
+¡El truco para recordar!
+ON para días. AT para horas. IN para meses y años.
 
-En inglés: "I go to the gym on Mondays." … en español: Voy al gimnasio los lunes. On + día.
-[pausa]
+"Ai uerk on Mándeis at eit in de morning"...
+I work on Mondays at eight in the morning.
+Trabajo los lunes a las ocho de la mañana.
 
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Tú puedes! Lets gou!
 
 ---
 
-## MÓDULO 6 · Situaciones Comunicativas Reales
+## MÓDULO 6 · Situaciones Reales
 
 ---
 
-### VIDEO 35 — En el restaurante: pedir comida y bebida
+### VIDEO 35 — En el restaurante
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... cómo pedir comida en un restaurante en inglés.
+Hoy aprenderemos a pedir comida en un restaurante en inglés.
 
-Cuando vas a un restaurante en un país de habla inglesa, necesitas saber pedir tu comida de forma educada.
-La frase clave es "I'd like" que significa "me gustaría". ¡Suena mucho más educado que solo decir "I want"!
+Cuando llegas al restaurante:
+"A téibol for tu, plis"... A table for two, please. Una mesa para dos, por favor.
+"Kan Ai si de meniu, plis?"... Can I see the menu, please? ¿Me puede dar el menú?
 
-Escucha y repite:
+Para pedir:
+"Kan Ai jav..."... Can I have... ¿Me puede traer...?
+"Ai uud laik..."... I would like... Quisiera...
+"Ai uud laik de chiken, plis"... I would like the chicken, please.
 
-En inglés: "I'd like a chicken sandwich, please." … en español: Me gustaría un sándwich de pollo, por favor.
-[pausa]
+Para preguntar recomendaciones:
+"Uat du yu rekiménd?"... What do you recommend? ¿Qué recomienda?
 
-En inglés: "Can I have the menu, please?" … en español: ¿Me puede traer el menú, por favor?
-[pausa]
+Para pedir la cuenta:
+"De bil, plis"... The bill, please. La cuenta, por favor.
+"Kan Ai jav de chek, plis?"... Can I have the check, please?
 
-En inglés: "Could we have the bill, please?" … en español: ¿Nos puede traer la cuenta, por favor?
-[pausa]
+Vocabulario clave:
+"uéiter"... waiter. Mesero.
+"meniu"... menu. Menú.
+"orden"... order. Orden.
+"tip"... propina.
+"Inyói yur mil!"... Enjoy your meal! ¡Buen provecho!
 
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 36 — De compras: precios, tallas y colores
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... cómo ir de compras en inglés.
+Hoy aprenderemos a ir de compras en inglés.
 
-Ir de compras en un país de habla inglesa requiere saber preguntar precios, pedir tallas y entender si algo está en oferta.
-¡Con estas frases podrás comprar con confianza en cualquier tienda!
+Para preguntar el precio:
+"Jau mach das it kost?"... How much does it cost? ¿Cuánto cuesta?
+"Jau mach is dis?"... How much is this? ¿Cuánto cuesta esto?
 
-Escucha y repite:
+Para hablar del precio:
+"Its ekspénsiv"... It's expensive. Es caro.
+"Its chip"... It's cheap. Es barato.
+"Its a gud praiz"... It's a good price. Es un buen precio.
 
-En inglés: "How much is it?" … en español: ¿Cuánto cuesta?
-[pausa]
+Las tallas:
+"sais"... size. Talla.
+"smol"... small. Pequeño.
+"mídium"... medium. Mediano.
+"larch"... large. Grande.
+"eks el"... extra large. Extra grande.
 
-En inglés: "Do you have this in a larger size?" … en español: ¿Lo tienen en una talla más grande?
-[pausa]
+Para probarse algo:
+"Kan Ai trai dis on?"... Can I try this on? ¿Me puedo probar esto?
+"It fits"... It fits. Me queda bien.
+"It dasent fit"... It doesn't fit. No me queda bien.
 
-En inglés: "It's on sale! I'll take it!" … en español: ¡Está en oferta! ¡Me lo llevo!
-[pausa]
+Para comprar:
+"Ail teik it"... I'll take it. Me lo llevo.
+"Du yu aksépt krédit kard?"... Do you accept credit card?
 
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 37 — Pedir y dar direcciones en inglés
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... cómo pedir y dar direcciones en inglés.
+Hoy aprenderemos a pedir y dar direcciones en inglés.
 
-Cuando estás en una ciudad nueva y necesitas encontrar un lugar, estas frases son esenciales.
-¡Y si alguien te pide direcciones, también podrás ayudarlos!
+Para pedir ayuda educadamente:
+"Ekskius mi"... Excuse me. Disculpe.
+"Uer is de nérest supermarket?"... Where is the nearest supermarket? ¿Dónde está el supermercado más cercano?
+"Jau du Ai get tu de éirport?"... How do I get to the airport?
 
-Escucha y repite:
+Para dar direcciones:
+"Gou streit"... Go straight. Siga derecho.
+"Tern left"... Turn left. Doble a la izquierda.
+"Tern rait"... Turn right. Doble a la derecha.
+"At de korner"... At the corner. En la esquina.
+"At de tráfik lait"... At the traffic light. En el semáforo.
+"Neks tu de bank"... Next to the bank. Al lado del banco.
+"Oposit de park"... Opposite the park. Frente al parque.
 
-En inglés: "Excuse me, where is the bank?" … en español: Disculpe, ¿dónde está el banco?
-[pausa]
+Para preguntar la distancia:
+"Is it far?"... ¿Está lejos?
+"Its nir"... It's near. Está cerca.
+"About ten mínuts uoking"... About ten minutes walking. Como diez minutos caminando.
 
-En inglés: "Go straight, then turn left." … en español: Siga recto, luego gire a la izquierda.
-[pausa]
-
-En inglés: "It's next to the supermarket." … en español: Está al lado del supermercado.
-[pausa]
-
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 38 — Medios de transporte
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... los medios de transporte en inglés.
+Hoy aprenderemos los medios de transporte en inglés.
 
-Para moverse por una ciudad en inglés necesitas conocer los nombres de los transportes.
-Y también la pregunta clave: "How do you get to work?", que significa ¿cómo llegas a tu trabajo?
+Los transportes más comunes:
+"bas"... bus. Autobús.
+"taksi"... taxi.
+"trein"... train. Tren.
+"sábwei"... subway. Metro.
+"plein"... plane. Avión.
+"kar"... car. Carro.
+"motorbáik"... motorbike. Moto.
+"baisikol"... bicycle. Bicicleta.
+"uóking"... walking. A pie.
 
-Escucha y repite:
+Para decir cómo viajas:
+"Ai teik de bas"... I take the bus. Tomo el bus.
+"Shi drives a kar"... She drives a car. Ella maneja un carro.
+"Ui ruid baisikols"... We ride bicycles. Montamos bicicletas.
+"Ji uoks tu skul"... He walks to school. Él camina a la escuela.
 
-En inglés: "I take the bus to school." … en español: Tomo el bus para ir a la escuela.
-[pausa]
+Vocabulario clave:
+"bas stop"... bus stop. Parada de bus.
+"trein stéishon"... train station. Estación de tren.
+"éirport"... airport. Aeropuerto.
+"tiket"... ticket. Tiquete.
 
-En inglés: "She rides her bike to work." … en español: Ella va al trabajo en bicicleta.
-[pausa]
-
-En inglés: "They take the subway every day." … en español: Ellos toman el metro todos los días.
-[pausa]
-
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 39 — There is / There are: describir lugares
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... cómo usar "there is" y "there are" para describir lugares.
+Hoy aprenderemos "there is" y "there are". ¡Se usan para decir que algo existe!
 
-"There is" y "there are" se usan para decir que algo existe o está en un lugar.
-La regla es simple: "there is" con singular y "there are" con plural.
+"Der is"... There is. Hay. Para singular.
+"Der ar"... There are. Hay. Para plural.
 
-Escucha y repite:
+Ejemplos afirmativos:
+"Der is a kat in de gárden"... There is a cat in the garden. Hay un gato en el jardín.
+"Der ar tú dogs in de park"... There are two dogs in the park.
+"Der is a supermarket nir jir"... There is a supermarket near here.
 
-En inglés: "There is a park near my house." … en español: Hay un parque cerca de mi casa.
-[pausa]
+Ejemplos negativos:
+"Der isnt a jospital jir"... There isn't a hospital here. No hay hospital aquí.
+"Der arnt eni stores opn"... There aren't any stores open. No hay tiendas abiertas.
 
-En inglés: "There are many restaurants in the city." … en español: Hay muchos restaurantes en la ciudad.
-[pausa]
+Preguntas:
+"Is der a bank nir jir?"... Is there a bank near here? ¿Hay un banco cerca?
+"Ar der eni restaurants?"... Are there any restaurants? ¿Hay restaurantes?
 
-En inglés: "Is there a bank here?" … en español: ¿Hay un banco aquí? ¡Para preguntar, invierte el orden!
-[pausa]
+Respuestas:
+"Yes, der is"... Yes, there is. Sí, hay.
+"Nou, der isnt"... No, there isn't. No, no hay.
 
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 40 — Can / Can't: habilidades y permisos
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... cómo usar "can" y "can't" en inglés.
+Hoy aprenderemos "can" y "can't". ¡Son muy útiles en la vida diaria!
 
-"Can" tiene dos usos principales: expresar habilidades, como "puedo nadar", y pedir permiso, como "¿puedo salir?".
-¡La buena noticia es que "can" nunca cambia, es igual para todos los sujetos!
+"Kan"... can. Se usa para decir que puedes hacer algo o que tienes permiso.
+"Kant"... can't. No puedes o no tienes permiso.
 
-Escucha y repite:
+Para habilidades:
+"Ai kan suim"... I can swim. Yo sé nadar.
+"Shi kan spik zri lénguiches"... She can speak three languages.
+"Ai kant flai"... I can't fly. No puedo volar.
+"Ji kant kuk"... He can't cook. Él no sabe cocinar.
 
-En inglés: "I can swim very well." … en español: Yo puedo nadar muy bien. Habilidad.
-[pausa]
+Para permisos:
+"Kan Ai yus yur fon?"... Can I use your phone? ¿Puedo usar tu teléfono?
+"Kan yu jélp mi, plis?"... Can you help me, please? ¿Me puedes ayudar?
+"Yu kan sit jir"... You can sit here. Puedes sentarte aquí.
+"Yu kant smok jir"... You can't smoke here. No puedes fumar aquí.
 
-En inglés: "She can't drive. She doesn't have a license." … en español: Ella no puede manejar. No tiene licencia.
-[pausa]
+Para preguntas:
+"Kan yu driv?"... Can you drive? ¿Sabes manejar?
+"Yes, Ai kan"... Yes, I can. Sí, puedo.
+"Nou, Ai kant"... No, I can't. No, no puedo.
 
-En inglés: "Can I use your phone, please?" … en español: ¿Puedo usar tu teléfono, por favor? Permiso.
-[pausa]
-
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Tú puedes! Lets gou!
 
 ---
 
@@ -1003,96 +1267,119 @@ En inglés: "Can I use your phone, please?" … en español: ¿Puedo usar tu tel
 ### VIDEO 41 — Was / Were: To Be en pasado
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... el verbo to be en pasado: was y were.
+Hoy aprenderemos el verbo "to be" en pasado.
 
-Para hablar de cómo eran las cosas en el pasado, usamos "was" y "were".
-La regla es: "was" con I, he, she, it. "Were" con you, we, they. ¡Igual que am/is/are pero en pasado!
+Solo hay dos formas: "was" y "were".
 
-Escucha y repite:
+"Uós"... was. Para I, he, she, it.
+"Uer"... were. Para you, we, they.
 
-En inglés: "I was very tired yesterday." … en español: Yo estaba muy cansado ayer.
-[pausa]
+Escucha los ejemplos:
+"Ai uós jápi yesterdei"... I was happy yesterday. Estaba feliz ayer.
+"Ji uós a tícher"... He was a teacher. Él era maestro.
+"Dei uer at skul"... They were at school. Ellos estaban en la escuela.
+"Ui uer tired"... We were tired. Estábamos cansados.
+"It uós cold last nait"... It was cold last night. Hacía frío anoche.
 
-En inglés: "She was a student five years ago." … en español: Ella era estudiante hace cinco años.
-[pausa]
+Forma negativa:
+"uósnt"... wasn't. Was not.
+"uernt"... weren't. Were not.
+"Shi uósnt jir yesterdei"... She wasn't here yesterday. Ella no estaba aquí ayer.
+"Dei uernt rédi"... They weren't ready. Ellos no estaban listos.
 
-En inglés: "They were at the park last Sunday." … en español: Ellos estaban en el parque el domingo pasado.
-[pausa]
+Preguntas:
+"Uós ji at jom?"... Was he at home? ¿Estaba él en casa?
+"Uer yu jápi?"... Were you happy? ¿Eras feliz?
+"Yes, Ai uós"... Yes, I was. Sí, lo era.
+"Nou, Ai uósnt"... No, I wasn't. No, no lo era.
 
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 42 — Verbos regulares en pasado: -ed
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... cómo formar el pasado simple de los verbos regulares.
+Hoy aprenderemos el pasado simple de los verbos regulares.
 
-¡Buenas noticias! La mayoría de los verbos en inglés forman el pasado de manera regular.
-Solo agrega "-ed" al final del verbo y listo. ¡No cambia para ningún sujeto!
+La regla es simple: agrega ED al final del verbo.
+¡Y se usa para TODOS los sujetos! Sin cambios.
 
-Escucha y repite:
+Regla básica: verbo + ED
+"uerk" → "uerkt"... work → worked. Trabajé, trabajaste, trabajó...
+"plei" → "pleyd"... play → played. Jugué.
+"uok" → "uokt"... walk → walked. Caminé.
+"uoch" → "uocht"... watch → watched. Miré.
 
-En inglés: "I worked yesterday." … en español: Yo trabajé ayer. Work → worked, solo agrega ED.
-[pausa]
+Verbos que terminan en E: agrega solo D
+"liv" → "livd"... live → lived. Viví.
+"luv" → "luvd"... love → loved. Amé.
+"danss" → "dansd"... dance → danced. Bailé.
 
-En inglés: "She watched a movie last night." … en español: Ella vio una película anoche. Watch → watched.
-[pausa]
+Verbos consonante + Y: cambia Y por IED
+"stádi" → "stádid"... study → studied. Estudié.
+"trai" → "traid"... try → tried. Intenté.
 
-En inglés: "They played football on Saturday." … en español: Ellos jugaron fútbol el sábado. Play → played.
-[pausa]
+Dobla la consonante final cuando es una sílaba con vocal corta:
+"stop" → "stoept"... stop → stopped. Paré.
+"plan" → "pland"... plan → planned. Planeé.
 
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+"Ai uerkt yesterdei"... I worked yesterday. Trabajé ayer.
+"Shi stádid ol nait"... She studied all night.
+
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 43 — Verbos irregulares más comunes
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... los verbos irregulares más comunes en inglés.
+Hoy aprenderemos los verbos irregulares más importantes del inglés.
 
-Algunos verbos no siguen la regla de agregar "-ed". ¡Cambian completamente en pasado!
-Estos se llaman verbos irregulares y hay que memorizarlos. ¡Pero tranquilo, con práctica se aprenden rápido!
+Los irregulares no siguen ninguna regla. ¡Hay que memorizarlos!
 
-Escucha y repite:
+Los más usados:
+"gou" → "uent"... go → went. Ir. "Ai uent tu de park". Fui al parque.
+"kam" → "keim"... come → came. Venir. "Shi keim jom léit". Llegó tarde.
+"si" → "so"... see → saw. Ver. "Ui so a gret film". Vimos una gran película.
+"jav" → "jad"... have → had. Tener. "Ji jad a big dog". Él tenía un perro grande.
+"meik" → "meid"... make → made. Hacer. "Dei meid a keik". Hicieron un pastel.
+"get" → "got"... get → got. Obtener. "Ai got a niu fon". Obtuve un teléfono nuevo.
+"teik" → "tuk"... take → took. Tomar. "Shi tuk de bas". Ella tomó el bus.
+"it" → "eit"... eat → ate. Comer. "Ui eit pizza last nait". Comimos pizza anoche.
+"drink" → "drank"... drink → drank. Beber. "Ji drank kófi". Él tomó café.
+"reit" → "rout"... write → wrote. Escribir.
 
-En inglés: "Go → went." … en español: Ir → fui / fue. "I went to the store yesterday."
-[pausa]
-
-En inglés: "Have → had." … en español: Tener → tuve / tuvo. "She had a great time at the party."
-[pausa]
-
-En inglés: "Eat → ate. See → saw. Buy → bought." … en español: Comer → comí. Ver → vi. Comprar → compré.
-[pausa]
-
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Practica estos verbos todos los días!
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 44 — Negativa: didn't / Preguntas: Did you?
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a aprender... cómo hacer negaciones y preguntas en el pasado simple.
+Hoy aprenderemos a hacer negativos y preguntas en pasado simple.
 
-Para negar en pasado usamos "didn't" más el verbo en forma base.
-Para preguntar usamos "Did" al inicio. ¡Y muy importante: el verbo principal siempre va en forma base, sin cambios!
+Para NEGAR en pasado, usa "dídnt"... didn't. Para TODOS los sujetos.
+¡Y el verbo vuelve a su forma BASE, sin cambios!
 
-Escucha y repite:
+"Ai dídnt gou tu skul yesterdei"... I didn't go to school yesterday.
+"Shi dídnt it brékfast"... She didn't eat breakfast. Ella no desayunó.
+"Dei dídnt si de film"... They didn't see the film. Ellos no vieron la película.
+"Ji dídnt kol mi"... He didn't call me. Él no me llamó.
 
-En inglés: "I didn't go to school yesterday." … en español: Yo no fui a la escuela ayer. Didn't + go, no "went".
-[pausa]
+Para hacer PREGUNTAS en pasado, usa "Did" al inicio:
+"Did yu gou tu de peti?"... Did you go to the party? ¿Fuiste a la fiesta?
+"Did shi kol?"... Did she call? ¿Llamó ella?
+"Did dei uerk yesterdei?"... Did they work yesterday?
 
-En inglés: "Did you eat breakfast this morning?" … en español: ¿Desayunaste esta mañana?
-[pausa]
+Respuestas cortas:
+"Yes, Ai did"... Yes, I did. Sí, fui.
+"Nou, Ai dídnt"... No, I didn't. No, no fui.
+"Yes, Shi did"... Yes, she did. Sí, llamó.
 
-En inglés: "No, I didn't. I was late!" … en español: No, no lo hice. ¡Llegué tarde!
-[pausa]
-
-¡Ahora tú! Haz los ejercicios y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Recuerda! Con "didn't" y "did", el verbo siempre va en BASE.
+¡Tú puedes! Lets gou!
 
 ---
 
@@ -1103,127 +1390,93 @@ En inglés: "No, I didn't. I was late!" … en español: No, no lo hice. ¡Llegu
 ### VIDEO 45 — Repaso completo de gramática A1
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a hacer un repaso de toda la gramática del nivel A1.
+Hoy hacemos un repaso de todo lo que aprendiste en el nivel A1. ¡Felicidades por llegar hasta aquí!
 
-¡Llegaste muy lejos! Has aprendido to be, presente simple, pasado simple, artículos, pronombres y mucho más.
-Ahora vamos a repasar los puntos más importantes para que los tengas bien frescos antes del examen.
+Repasemos los puntos clave:
 
-Recuerda las reglas más importantes:
+To Be: "Aim a student"... I'm a student. "Shi isnt jir"... She isn't here.
+Presente Simple: "Ji uerks evri dei"... He works every day. "Dei dount laik it"... They don't like it.
+Pasado Simple: "Ai uent tu de park"... I went to the park. "Shi dídnt kol"... She didn't call.
+Artículos: "a dog"... "an épol"... "de san"... The sun.
+Demostrativos: "Dis is mai buk"... This is my book. "Dous ar yur shus"... Those are your shoes.
+Posesivos: "Mai fámili is big"... My family is big. "Jer neim is Ana"... Her name is Ana.
+Can: "Ai kan suim"... I can swim. "Ji kant driv"... He can't drive.
+There is/are: "Der is a kat"... There is a cat. "Der arnt eni tikets"... There aren't any tickets.
 
-En inglés: "She is, she doesn't, she was, she can." … ¡Cuando usamos she, he o it, el verbo cambia!
-[pausa]
+¡Mira qué lejos has llegado!
+Empezaste con el alfabeto y ahora puedes hablar de tu vida, pedir en un restaurante y comprender conversaciones básicas.
 
-En inglés: "Did you go? I didn't go. Where did you go?" … ¡El pasado simple con did y didn't!
-[pausa]
-
-En inglés: "There is a book. There are two books." … ¡Singular y plural con there is y there are!
-[pausa]
-
-¡Ahora tú! Haz los ejercicios de repaso y demuestra todo lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Sigue practicando cada día!
+¡Tú puedes! Lets gou!
 
 ---
 
 ### VIDEO 46 — Las 500 palabras clave del A1
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a repasar las palabras más importantes del nivel A1.
+Hoy hablaremos de vocabulario. ¿Sabes que con solo 500 palabras puedes comunicarte en inglés?
 
-Con 500 palabras básicas puedes comunicarte en la mayoría de las situaciones cotidianas en inglés.
-¡Eso es mucho más de lo que crees! Vamos a repasar los grupos más importantes.
+Los verbos más esenciales:
+"bi"... be. Ser/estar.
+"jav"... have. Tener.
+"du"... do. Hacer.
+"gou"... go. Ir.
+"kam"... come. Venir.
+"si"... see. Ver.
+"nou"... know. Saber/conocer.
+"zink"... think. Pensar.
+"uont"... want. Querer.
+"sei"... say. Decir.
 
-Escucha los grupos de palabras clave:
+Los sustantivos más usados:
+"taim"... time. Tiempo.
+"dei"... day. Día.
+"yir"... year. Año.
+"uei"... way. Forma/camino.
+"pípol"... people. Gente.
+"uorld"... world. Mundo.
 
-En inglés: "Happy, sad, tired, excited, hungry, thirsty." … Emociones y estados. ¡Las más usadas!
-[pausa]
+¡El secreto del vocabulario!
+Aprende 10 palabras nuevas cada día.
+En 50 días tendrás 500 palabras.
+Usa las palabras nuevas en oraciones propias.
+¡La repetición es la clave!
 
-En inglés: "Big, small, fast, slow, hot, cold, old, new." … Adjetivos básicos para describir todo.
-[pausa]
+"Práktis meiks pérfekt"... Practice makes perfect. La práctica hace al maestro.
 
-En inglés: "Go, come, eat, drink, work, study, live, have." … Los verbos de acción más importantes.
-[pausa]
-
-¡Ahora tú! Haz los ejercicios de vocabulario y demuestra lo que aprendiste.
-¡Tú puedes! Let's go! 🐧
+¡Tú puedes! Lets gou!
 
 ---
 
-### VIDEO 47 — Preparación para el Examen Cambridge A1
+### VIDEO 47 — Preparación para el Examen Cambridge A1 KET
 
 ¡Hola! Soy Ping, tu guía en Melinglish.
-En esta lección vamos a prepararnos para el examen de inglés nivel A1.
+Hoy te preparo para el examen Cambridge A1, conocido como KET.
 
-¡Has completado todos los módulos del nivel A1! Eso es increíble.
-Ahora vamos a repasar qué tipo de preguntas encontrarás en un examen oficial de inglés nivel A1, como el Cambridge KET.
+El examen KET evalúa cuatro habilidades:
+"Ríding"... Reading. Lectura.
+"Ráiting"... Writing. Escritura.
+"Lísening"... Listening. Comprensión auditiva.
+"Spíking"... Speaking. Conversación.
 
-Hay tres tipos de preguntas que debes dominar:
+Estrategias para el examen:
 
-Primero: gramática y vocabulario, como elegir la palabra correcta para completar una oración.
-[pausa]
+Para la lectura:
+Lee las preguntas ANTES de leer el texto.
+Elimina las opciones claramente incorrectas.
+Busca palabras clave en el texto.
 
-Segundo: lectura de textos cortos, como formularios, postales o mensajes simples.
-[pausa]
+Para la escritura:
+Usa conectores básicos: "and"... "but"... "because"...
+Revisa la ortografía de las palabras que aprendiste.
 
-Tercero: escritura simple, como completar formularios o escribir frases cortas.
-[pausa]
+Para el listening:
+Escucha la primera vez para entender el tema general.
+La segunda vez busca los detalles específicos.
 
-Recuerda: lee cada pregunta dos veces antes de responder, y si no sabes una respuesta, ¡pasa a la siguiente y vuelve después!
+Los temas más frecuentes en el KET A1:
+Familia, trabajo, tiempo libre, viajes, compras.
 
-¡Tú puedes aprobar este examen! Has trabajado muy duro.
-¡Mucho ánimo! You can do it! 🐧
-
----
-
-## 📋 Checklist de producción
-
-Marca cada video cuando esté listo:
-
-| # | Lección | Audio ElevenLabs | Video CapCut | URL YouTube | Agregado en app |
-|---|---------|-----------------|--------------|-------------|-----------------|
-| 1 | El Alfabeto A–Z | ☐ | ☐ | ☐ | ☐ |
-| 2 | Vocales y Consonantes | ☐ | ☐ | ☐ | ☐ |
-| 3 | Deletreo | ☐ | ☐ | ☐ | ☐ |
-| 4 | Sílabas y Acento | ☐ | ☐ | ☐ | ☐ |
-| 5 | Saludos básicos | ☐ | ☐ | ☐ | ☐ |
-| 6 | Presentaciones | ☐ | ☐ | ☐ | ☐ |
-| 7 | Países y Nacionalidades | ☐ | ☐ | ☐ | ☐ |
-| 8 | Profesiones | ☐ | ☐ | ☐ | ☐ |
-| 9 | Pronombres personales | ☐ | ☐ | ☐ | ☐ |
-| 10 | Números 1–20 | ☐ | ☐ | ☐ | ☐ |
-| 11 | Números 20–100 | ☐ | ☐ | ☐ | ☐ |
-| 12 | To Be afirmativa | ☐ | ☐ | ☐ | ☐ |
-| 13 | To Be negativa | ☐ | ☐ | ☐ | ☐ |
-| 14 | To Be interrogativa | ☐ | ☐ | ☐ | ☐ |
-| 15 | Contracciones | ☐ | ☐ | ☐ | ☐ |
-| 16 | Artículos a / an | ☐ | ☐ | ☐ | ☐ |
-| 17 | El artículo the | ☐ | ☐ | ☐ | ☐ |
-| 18 | This / That / These / Those | ☐ | ☐ | ☐ | ☐ |
-| 19 | Adjetivos básicos | ☐ | ☐ | ☐ | ☐ |
-| 20 | Posesivos | ☐ | ☐ | ☐ | ☐ |
-| 21 | Plurales regulares | ☐ | ☐ | ☐ | ☐ |
-| 22 | La familia | ☐ | ☐ | ☐ | ☐ |
-| 23 | El hogar y habitaciones | ☐ | ☐ | ☐ | ☐ |
-| 24 | Comida y bebida | ☐ | ☐ | ☐ | ☐ |
-| 25 | Colores y Ropa | ☐ | ☐ | ☐ | ☐ |
-| 26 | Animales comunes | ☐ | ☐ | ☐ | ☐ |
-| 27 | Clima y Estaciones | ☐ | ☐ | ☐ | ☐ |
-| 28 | Meses y Ordinales | ☐ | ☐ | ☐ | ☐ |
-| 29 | Presente Simple afirmativo | ☐ | ☐ | ☐ | ☐ |
-| 30 | Negaciones don't / doesn't | ☐ | ☐ | ☐ | ☐ |
-| 31 | Preguntas Do / Does | ☐ | ☐ | ☐ | ☐ |
-| 32 | Adverbios de frecuencia | ☐ | ☐ | ☐ | ☐ |
-| 33 | La hora | ☐ | ☐ | ☐ | ☐ |
-| 34 | Preposiciones at / in / on | ☐ | ☐ | ☐ | ☐ |
-| 35 | En el restaurante | ☐ | ☐ | ☐ | ☐ |
-| 36 | De compras | ☐ | ☐ | ☐ | ☐ |
-| 37 | Direcciones | ☐ | ☐ | ☐ | ☐ |
-| 38 | Medios de transporte | ☐ | ☐ | ☐ | ☐ |
-| 39 | There is / There are | ☐ | ☐ | ☐ | ☐ |
-| 40 | Can / Can't | ☐ | ☐ | ☐ | ☐ |
-| 41 | Was / Were | ☐ | ☐ | ☐ | ☐ |
-| 42 | Verbos regulares -ed | ☐ | ☐ | ☐ | ☐ |
-| 43 | Verbos irregulares | ☐ | ☐ | ☐ | ☐ |
-| 44 | didn't / Did you? | ☐ | ☐ | ☐ | ☐ |
-| 45 | Repaso gramática A1 | ☐ | ☐ | ☐ | ☐ |
-| 46 | 500 palabras clave | ☐ | ☐ | ☐ | ☐ |
-| 47 | Preparación Examen A1 | ☐ | ☐ | ☐ | ☐ |
+¡Ya tienes todo lo necesario para pasar el examen!
+"Gud lak!"... Good luck! ¡Mucha suerte!
+¡Tú puedes! Lets gou!
