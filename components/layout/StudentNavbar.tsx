@@ -11,9 +11,10 @@ import { type Subscription } from '@/lib/content-access'
 type Props = {
   userName: string
   subscription: Subscription | null
+  isAdmin?: boolean
 }
 
-export default function StudentNavbar({ userName, subscription }: Props) {
+export default function StudentNavbar({ userName, subscription, isAdmin }: Props) {
   const router = useRouter()
 
   async function handleSignOut() {
@@ -62,12 +63,17 @@ export default function StudentNavbar({ userName, subscription }: Props) {
               </span>
             </div>
           </Link>
-          {planLabel && (
+          {isAdmin && (
+            <Badge className="bg-purple-100 text-purple-700 font-bold hidden sm:block">
+              Admin
+            </Badge>
+          )}
+          {!isAdmin && planLabel && (
             <Badge className="bg-orange-100 text-orange-700 font-bold hidden sm:block">
               {planLabel}
             </Badge>
           )}
-          {!subscription && (
+          {!isAdmin && !subscription && (
             <Link href="/pricing">
               <Button size="sm" className="font-bold bg-orange-500 hover:bg-orange-600 text-white hidden sm:flex">
                 ¡Suscríbete!

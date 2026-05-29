@@ -1,6 +1,7 @@
 import { redirect } from 'next/navigation'
 import { createClient } from '@/lib/supabase/server'
 import StudentNavbar from '@/components/layout/StudentNavbar'
+import { getEffectiveSubscription } from '@/lib/content-access'
 
 export default async function StudentLayout({ children }: { children: React.ReactNode }) {
   const supabase = await createClient()
@@ -21,11 +22,15 @@ export default async function StudentLayout({ children }: { children: React.Reac
     .eq('status', 'active')
     .single()
 
+  const isAdmin = profile?.role === 'admin'
+  const effectiveSub = getEffectiveSubscription(subscription, isAdmin)
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
       <StudentNavbar
         userName={profile?.full_name ?? user.email ?? 'Estudiante'}
-        subscription={subscription}
+        subscription={effectiveSub}
+        isAdmin={isAdmin}
       />
       <main className="max-w-4xl mx-auto px-4 py-8">
         {children}
