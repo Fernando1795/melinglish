@@ -117,15 +117,16 @@ async function seed() {
   }
 
   // Resumen final
-  const { data: counts } = await supabase.rpc('seed_count').single().catch(() => ({ data: null }))
-  const { count: modCount  } = await supabase.from('modules').select('*', { count: 'exact', head: true })
-  const { count: lesCount  } = await supabase.from('lessons').select('*', { count: 'exact', head: true })
-  const { count: blkCount  } = await supabase.from('lesson_blocks').select('*', { count: 'exact', head: true })
+  const [modRes, lesRes, blkRes] = await Promise.all([
+    supabase.from('modules').select('*', { count: 'exact', head: true }),
+    supabase.from('lessons').select('*', { count: 'exact', head: true }),
+    supabase.from('lesson_blocks').select('*', { count: 'exact', head: true }),
+  ])
 
   console.log('\n✅ Seed completado:')
-  console.log(`   Módulos:   ${modCount}`)
-  console.log(`   Lecciones: ${lesCount}`)
-  console.log(`   Ejercicios: ${blkCount}`)
+  console.log(`   Módulos:    ${modRes.count}`)
+  console.log(`   Lecciones:  ${lesRes.count}`)
+  console.log(`   Ejercicios: ${blkRes.count}`)
 }
 
 seed().catch(console.error)
