@@ -94,5 +94,6 @@ export const config = {
     '/register',
     '/api/webhooks/:path*',
     '/api/checkout',
+    '/api/register',
   ],
 }
