@@ -1,7 +1,7 @@
 import { redirect } from 'next/navigation'
 import Link from 'next/link'
 import { createClient } from '@/lib/supabase/server'
-import { getAccessibleHours, isSubscriptionActive, formatCOP } from '@/lib/content-access'
+import { getAccessibleHours, isSubscriptionActive, canAccessLevel } from '@/lib/content-access'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { BookOpen, Lock, Zap } from 'lucide-react'
@@ -90,9 +90,10 @@ export default async function DashboardPage() {
         <h2 className="text-2xl font-black text-gray-900 mb-4">📚 Mis niveles</h2>
         <div className="grid md:grid-cols-2 gap-4">
           {(levels ?? []).map(level => {
-            const isA1 = level.id === 'A1'
-            const isUnlocked = hasSubscription && (
-              subscription?.plan === 'annual' || isA1
+            const isUnlocked = canAccessLevel(
+              level.id,
+              subscription,
+              profile?.current_level ?? 'A1'
             )
 
             return (
@@ -106,7 +107,7 @@ export default async function DashboardPage() {
               >
                 <div className="flex items-start justify-between mb-3">
                   <div>
-                    <Badge className={`mb-2 font-black ${isA1 ? 'bg-blue-100 text-blue-700' : 'bg-purple-100 text-purple-700'}`}>
+                    <Badge className={`mb-2 font-black ${level.id === 'A1' ? 'bg-blue-100 text-blue-700' : 'bg-purple-100 text-purple-700'}`}>
                       Nivel {level.id}
                     </Badge>
                     <h3 className="text-xl font-black text-gray-900">{level.title}</h3>

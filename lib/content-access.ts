@@ -20,6 +20,21 @@ export function canAccessAllLevels(subscription: Subscription | null): boolean {
   return subscription.plan === 'annual'
 }
 
+/**
+ * Determina si el usuario puede acceder a un nivel específico.
+ * - Anual → accede a TODOS los niveles (A1 + A2)
+ * - Semanal o Mensual → accede SOLO al nivel que eligió en el onboarding (current_level)
+ */
+export function canAccessLevel(
+  levelId: string,
+  subscription: Subscription | null,
+  currentLevel: string
+): boolean {
+  if (!subscription || subscription.status !== 'active') return false
+  if (subscription.plan === 'annual') return true           // Anual desbloquea todo
+  return levelId === currentLevel                           // Semanal/Mensual solo su nivel
+}
+
 export function isSubscriptionActive(subscription: Subscription | null): boolean {
   if (!subscription) return false
   return subscription.status === 'active'

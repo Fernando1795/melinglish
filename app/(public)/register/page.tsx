@@ -40,7 +40,7 @@ export default function RegisterPage() {
       return
     }
 
-    router.push('/app/dashboard')
+    router.push('/app/onboarding')
     router.refresh()
   }
 

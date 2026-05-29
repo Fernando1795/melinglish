@@ -66,6 +66,19 @@ export async function proxy(request: NextRequest) {
     return NextResponse.redirect(new URL('/app/dashboard', request.url))
   }
 
+  // Si el usuario no completó el onboarding → redirigir (excepto si ya está ahí)
+  if (user && isStudentRoute && pathname !== '/app/onboarding') {
+    const { data: profile } = await supabase
+      .from('profiles')
+      .select('onboarding_completed')
+      .eq('id', user.id)
+      .single()
+
+    if (profile && !profile.onboarding_completed) {
+      return NextResponse.redirect(new URL('/app/onboarding', request.url))
+    }
+  }
+
   // Añadir headers de seguridad extra en todas las respuestas
   supabaseResponse.headers.set('X-Request-ID', crypto.randomUUID())
   supabaseResponse.headers.set('Cache-Control', 'no-store, must-revalidate')
