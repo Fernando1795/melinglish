@@ -57,7 +57,7 @@ export default function OnboardingPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white flex flex-col items-center justify-center px-4 py-10">
-      {/* Pingu bienvenida */}
+      {/* Ping bienvenida */}
       <motion.div
         initial={{ scale: 0.5, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}

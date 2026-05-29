@@ -46,7 +46,7 @@ export default function Penguin({ mood = 'happy', size = 120, className = '' }: 
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src="/penguin.png"
-        alt="Pingu — mascota de Melinglish"
+        alt="Ping — mascota de Melinglish"
         width={size}
         height={size}
         style={{ objectFit: 'contain', width: size, height: size }}

@@ -351,7 +351,7 @@ export const DEMO_LEVELS: DemoLevel[] = [
                   mc('3tn1',1,{ question:'"I ___ tired." (negativo)', options:["am not","is not","are not","not am"], correct:"am not", explanation:'"I am not" = I\'m not.' }),
                   fb('3tn2',1,{ sentence:'She ___ a doctor. (negativo)', answer:"is not", hint:'She is → She is not' }),
                   so('3tn3',2,{ words:['not','happy','am','I'], correct_order:['I','am','not','happy'] }),
-                  mc('3tn4',2,{ question:'Contracción de "is not":', options:["isn't","isn't","not is","isno"], correct:"isn't", explanation:'"is not" → "isn\'t"' }),
+                  mc('3tn4',2,{ question:'Contracción de "is not":', options:["isn't","isnt","not is","is'nt"], correct:"isn't", explanation:'"is not" → "isn\'t" — el apóstrofe va donde se omite la letra "o".' }),
                   fb('3tn5',2,{ sentence:"They ___ from Mexico. (contracción)", answer:"aren't", hint:'"are not" → "aren\'t"' }),
                   so('3tn6',3,{ words:["isn't","cold","today","It"], correct_order:['It',"isn't","cold","today"] }),
                   mc('3tn7',3,{ question:'"We ___ ready yet." (contracción)', options:["aren't","isn't","am not","not are"], correct:"aren't", explanation:'"We are not" → "We aren\'t".' }),
@@ -478,7 +478,7 @@ export const DEMO_LEVELS: DemoLevel[] = [
                   mc('3pl3',1,{ question:'¿Cuál es el plural de "box"?', options:['boxes','boxs','boxies','boxen'], correct:'boxes', explanation:'Palabras en -x, -s, -ch, -sh → agrega -es.' }),
                   fb('3pl4',2,{ sentence:'One dish → three ___.', answer:'dishes', hint:'dish → dish + es' }),
                   mc('3pl5',2,{ question:'¿Cuál es el plural de "baby"?', options:['babies','babys','babyes','baby'], correct:'babies', explanation:'Palabras en consonante + y → cambia y por ies: babies.' }),
-                  mc('3pl6',2,{ question:'¿Cuál es el plural de "man"?', options:['men','mans','manes','mans'], correct:'men', explanation:'"Man" es irregular: man → men.' }),
+                  mc('3pl6',2,{ question:'¿Cuál es el plural de "man"?', options:['men','mans','manes',"man's"], correct:'men', explanation:'"Man" es irregular: man → men. (No "mans").' }),
                   mc('3pl7',3,{ question:'¿Cuál es el plural de "child"?', options:['children','childs','childes','child'], correct:'children', explanation:'"Child" es irregular: child → children.' }),
                 ]
               },
@@ -863,7 +863,7 @@ export const DEMO_LEVELS: DemoLevel[] = [
                   fb('7ww3',1,{ sentence:'It ___ very cold last night.', answer:'was', hint:'"It" → was' }),
                   so('7ww4',2,{ words:['at','was','yesterday','She','home'], correct_order:['She','was','at','home','yesterday'] }),
                   mc('7ww5',2,{ question:'"Where ___ you born?"', options:['were','was','are','did'], correct:'were', explanation:'"You" en pasado → "were".' }),
-                  fb('7ww6',2,{ sentence:'My parents ___ not at home. (contracción)', answer:"weren't", hint:'"were not" → "weren\'t"' }),
+                  fb('7ww6',2,{ sentence:'My parents ___ at home last night. (negativo contraído)', answer:"weren't", hint:'"were not" → "weren\'t"' }),
                   mc('7ww7',3,{ question:'"___ the movie good?" (pregunta)', options:['Was','Were','Did','Is'], correct:'Was', explanation:'"The movie" = it → "Was it good?"' }),
                   so('7ww8',3,{ words:['great','yesterday','was','The','weather'], correct_order:['The','weather','was','great','yesterday'] }),
                 ]

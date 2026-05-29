@@ -23,7 +23,7 @@ export default function DemoPage() {
       {/* Bienvenida demo */}
       <div className="bg-gradient-to-r from-blue-500 to-blue-700 rounded-3xl p-8 text-white text-center">
         <Penguin mood="wave" size={120} className="mx-auto mb-4" />
-        <h1 className="text-3xl font-black mb-2">¡Hola! Soy Pingu 🐧</h1>
+        <h1 className="text-3xl font-black mb-2">¡Hola! Soy Ping 🐧</h1>
         <p className="text-blue-100 font-semibold text-lg">
           Tu guía para aprender inglés de manera autodidacta
         </p>
