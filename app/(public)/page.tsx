@@ -16,7 +16,7 @@ export default function LandingPage() {
         </div>
         <div className="flex gap-3">
           <Link href="/login">
-            <Button variant="ghost" className="font-bold">Iniciar sesión</Button>
+            <Button className="font-bold bg-blue-600 hover:bg-blue-700">Iniciar sesión</Button>
           </Link>
         </div>
       </nav>
