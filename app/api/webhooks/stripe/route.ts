@@ -14,9 +14,6 @@ async function retrieveSub(id: string): Promise<SubData> {
   return (await stripe.subscriptions.retrieve(id)) as any
 }
 
-// Deshabilitar body parsing de Next.js — necesitamos el raw body para verificar la firma
-export const config = { api: { bodyParser: false } }
-
 export async function POST(req: NextRequest) {
   const body = await req.text()
   const sig = req.headers.get('stripe-signature')
