@@ -11,15 +11,20 @@ export default async function LessonPage({ params }: Props) {
   const { data: { user } } = await supabase.auth.getUser()
   if (!user) redirect('/login')
 
-  const [{ data: lesson }, { data: subscription }, { data: profile }] = await Promise.all([
+  const [lessonRes, subscriptionRes, profileRes] = await Promise.all([
     supabase
       .from('lessons')
       .select('*, sections(title, modules(title, level_id))')
       .eq('id', lessonId)
-      .single() as Promise<{ data: { id: string; title: string; intro_video_url: string | null; key_concepts: string[] | null; cumulative_hours: number; sections: { title: string; modules: { title: string; level_id: string } } } | null; error: unknown }>,
+      .single(),
     supabase.from('subscriptions').select('*').eq('user_id', user.id).eq('status', 'active').single(),
     supabase.from('profiles').select('role, current_level, weekly_days_accumulated').eq('id', user.id).single(),
   ])
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const lesson    = lessonRes.data as any
+  const subscription = subscriptionRes.data
+  const profile   = profileRes.data
 
   if (!lesson) notFound()
 
