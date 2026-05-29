@@ -13,6 +13,7 @@ import { Progress } from '@/components/ui/progress'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import Penguin from '@/components/Penguin'
+import CTACard from '@/components/CTACard'
 import VideoPlayer from '@/components/exercises/VideoPlayer'
 import MultipleChoice from '@/components/exercises/MultipleChoice'
 import FillBlank from '@/components/exercises/FillBlank'
@@ -170,16 +171,10 @@ export default function DemoLessonClient({ lesson }: { lesson: DemoLesson }) {
         </div>
 
         {/* CTA cuenta real */}
-        <div className="bg-orange-50 border-2 border-orange-200 rounded-2xl p-4 w-full max-w-sm text-center">
-          <p className="text-orange-700 font-bold text-sm mb-3">
-            🐧 ¡Crea tu cuenta para guardar este progreso!
-          </p>
-          <Link href="/register">
-            <Button className="w-full font-black bg-orange-500 hover:bg-orange-600 rounded-xl">
-              Crear cuenta gratis →
-            </Button>
-          </Link>
-        </div>
+        <CTACard
+          title="¡Guarda tu progreso! 🌟"
+          subtitle="Crea tu cuenta gratis para conservar tus estrellas y continuar desde donde lo dejaste"
+        />
 
         <div className="flex gap-3 flex-wrap justify-center">
           <Link href="/demo/levels/A1">

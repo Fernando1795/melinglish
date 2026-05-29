@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { BookOpen, Lock, Zap } from 'lucide-react'
 import Penguin from '@/components/Penguin'
+import CTACard from '@/components/CTACard'
 
 export default async function DashboardPage() {
   const supabase = await createClient()
@@ -70,20 +71,10 @@ export default async function DashboardPage() {
 
       {/* Alerta sin suscripción */}
       {!hasSubscription && (
-        <div className="bg-orange-50 border-2 border-orange-200 rounded-3xl p-6 flex flex-col sm:flex-row items-center gap-4">
-          <div className="text-5xl">🔓</div>
-          <div className="flex-1 text-center sm:text-left">
-            <h3 className="text-xl font-black text-orange-800 mb-1">¡Desbloquea el contenido!</h3>
-            <p className="text-orange-600 font-medium">
-              Elige un plan y accede a todos los ejercicios de inglés
-            </p>
-          </div>
-          <Link href="/pricing">
-            <Button className="bg-orange-500 hover:bg-orange-600 font-black text-white rounded-2xl px-6 py-5">
-              Ver planes
-            </Button>
-          </Link>
-        </div>
+        <CTACard
+          title="🔓 ¡Desbloquea el contenido!"
+          subtitle="Elige un plan y accede a todos los ejercicios de inglés"
+        />
       )}
 
       {/* Niveles */}

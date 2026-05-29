@@ -1,8 +1,9 @@
 import Link from 'next/link'
 import { DEMO_LEVELS } from '@/lib/demo-data'
-import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
+import { Button } from '@/components/ui/button'
 import Penguin from '@/components/Penguin'
+import CTACard from '@/components/CTACard'
 import { BookOpen, Zap, ChevronRight, ArrowLeft } from 'lucide-react'
 
 export default function DemoPage() {
@@ -69,20 +70,7 @@ export default function DemoPage() {
         </div>
       </div>
 
-      {/* CTA — solo "Ver planes" centrado */}
-      <div className="bg-gradient-to-r from-orange-400 to-orange-600 rounded-3xl p-8 text-white text-center">
-        <h3 className="text-2xl font-black mb-2">¿Te gustó? 🎉</h3>
-        <p className="text-orange-100 font-medium mb-6">
-          Crea tu cuenta y accede a los 8 módulos completos del nivel A1
-        </p>
-        <div className="flex justify-center">
-          <Link href="/pricing">
-            <Button className="font-black bg-white text-orange-600 hover:bg-orange-50 rounded-2xl px-10 py-5 text-lg shadow-lg">
-              Ver planes
-            </Button>
-          </Link>
-        </div>
-      </div>
+      <CTACard />
 
     </div>
   )

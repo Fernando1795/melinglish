@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { DEMO_LEVELS } from '@/lib/demo-data'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
+import CTACard from '@/components/CTACard'
 import { ChevronRight, BookOpen, Clock, Lock } from 'lucide-react'
 
 type Props = { params: Promise<{ levelId: string }> }
@@ -134,25 +135,7 @@ export default async function DemoLevelPage({ params }: Props) {
         )
       })}
 
-      {/* CTA final */}
-      <div className="bg-gradient-to-r from-orange-400 to-orange-600 rounded-3xl p-8 text-white text-center">
-        <p className="text-2xl font-black mb-2">¿Quieres más? 🚀</p>
-        <p className="text-orange-100 font-medium mb-6">
-          Crea tu cuenta y accede a los 8 módulos completos del nivel A1
-        </p>
-        <div className="flex gap-3 justify-center flex-wrap">
-          <Link href="/register">
-            <Button className="font-black bg-white text-orange-600 hover:bg-orange-50 rounded-2xl px-8 py-5 text-lg">
-              Crear cuenta gratis
-            </Button>
-          </Link>
-          <Link href="/pricing">
-            <Button variant="outline" className="font-black border-2 border-white text-white hover:bg-white/20 rounded-2xl px-8 py-5 text-lg">
-              Ver planes
-            </Button>
-          </Link>
-        </div>
-      </div>
+      <CTACard title="¿Quieres más? 🚀" />
     </div>
   )
 }
